@@ -6,3 +6,12 @@ class CreateSongs < ActiveRecord::Migration
     end
   end
 end
+#Title – The track title
+#Artist – The artist that recorded the track
+#Album – Which album the track belongs to (if applicable
+#Track – The track number from the album (if applicable)
+#Year – The year that the track was published
+#Genre – The type of track, e.g. speech, rock, pop
+#Comment – Additional notes about the track
+#Copyright – Copyright notice by the copyright holder
+#Album Art – Thumbnail of the album art or artist
