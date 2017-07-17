@@ -1,13 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<title>Welcome Page</title>
-	</head>
 	<body>
-	<h1>Songs List</h1><br>
-	<ul>
-		<li></li>
-	</ul>
-	<%= link_to "Upload New Song" , class: 'song_upload',id: "song_title" %>
+		<header class="jumbotron">
+			<h1>Songs List</h1>
+		</header>
+		<div class="container">
+			<% if !flash[:notice].blank? %>
+  				<div class = "alert alert-info">
+    		 		<%= flash[:notice] %>
+  		 		</div>
+			<% end %>
+		</div>
+		<div class="container">
+			<%= link_to "Upload New Song" ,new_song_path, class: 'btn btn-primary',id: "song_title" %>
+			<br>
+
+			<div class="well">
+				<table class="table table-striped">
+				<thead>
+					<th> Song Name</th>
+					<th>Download Link</th>
+					<th>Delete</th>
+				</thead>		
+				<tbody>
+					<% @songs.each do |song| %>
+						<tr>
+							<td><%= song.song_title %></td>
+							<td><%= link_to "Download" %></td>
+							<td><%= button_to "Delete song", song_path(song), method: :delete, class: "btn btn-danger" ,confirm: "Are you sure that you wish to delete #{song.song_title}?" %></td>
+						</tr>
+					<% end %>
+				</tbody>
+			</table>
+			</div>
+		</div>
+
 	</body>
 </html>

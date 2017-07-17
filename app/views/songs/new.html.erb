@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<body>
+		<header class="jumbotron">
+			<h1>new List</h1>
+		</header>
+		<div class="container">
+			<div class="well">
+				<%= form_for(@song, html: { multipart: true }) do |f| %>
+					<p>
+						<%= f.label :song_title %><br>
+						<%= f.text_field :song_title%>
+					</p>
+					<p>
+						<%= f.label :song_url %><br>
+						<%= f.file_field :song_url %>
+					</p>
+					<p>
+						<%= f.submit "Upload",class: "btn btn-primary" %>
+					</p>
+				<% end %>	
+			</div>
+		</div>
+
+	</body>
+</html>

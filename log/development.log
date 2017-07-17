@@ -4138,3 +4138,1933 @@ Started GET "/songs" for ::1 at 2017-07-14 14:55:08 +0530
 Processing by SongsController#index as HTML
   Rendered songs/index.html.erb within layouts/application (1.1ms)
 Completed 200 OK in 90ms (Views: 88.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-07-17 12:40:54 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by IndexController#show as HTML
+  Rendered index/show.html.erb within layouts/application (1644.6ms)
+Completed 200 OK in 1950ms (Views: 1927.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/songs" for ::1 at 2017-07-17 12:41:03 +0530
+Processing by SongsController#index as HTML
+  Rendered songs/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 111ms (Views: 110.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/songs?class=song_upload&id=song_title" for ::1 at 2017-07-17 12:41:56 +0530
+Processing by SongsController#index as HTML
+  Parameters: {"class"=>"song_upload", "id"=>"song_title"}
+  Rendered songs/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 235ms (Views: 234.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/songs?class=song_upload&id=song_title" for ::1 at 2017-07-17 12:46:15 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (9.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by SongsController#index as HTML
+  Parameters: {"class"=>"song_upload", "id"=>"song_title"}
+  Rendered songs/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 1780ms (Views: 1752.9ms | ActiveRecord: 0.0ms)
+  [1m[36mActiveRecord::SchemaMigration Load (9.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.2ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+
+
+
+Started GET "/songs?class=song_upload&id=song_title" for ::1 at 2017-07-17 13:33:30 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by SongsController#index as HTML
+  Parameters: {"class"=>"song_upload", "id"=>"song_title"}
+  Rendered songs/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 2107ms (Views: 2075.6ms | ActiveRecord: 0.0ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.8ms)[0m  [1mDROP TABLE "songs"[0m
+  [1m[35mSQL (0.4ms)[0m  DELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = ?  [["version", "20170713064824"]]
+  [1m[36m (1.1ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateSongs (20170713064824)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.6ms)[0m  [1mCREATE TABLE "songs" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "song_title" varchar, "song_url" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20170713064824"]]
+  [1m[36m (1.1ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+
+
+
+Started GET "/songs?class=song_upload&id=song_title" for ::1 at 2017-07-17 14:52:48 +0530
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+SyntaxError (/Users/standarduser/Documents/ROR_pmusic/app/controllers/songs_controller.rb:28: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/controllers/songs_controller.rb:28: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.6ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.6ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.5ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (127.8ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (85.6ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.9ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (376.2ms)
+
+
+Started GET "/songs?class=song_upload&id=song_title" for ::1 at 2017-07-17 14:52:49 +0530
+
+SyntaxError (/Users/standarduser/Documents/ROR_pmusic/app/controllers/songs_controller.rb:28: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/controllers/songs_controller.rb:28: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.3ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.6ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (112.8ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (79.2ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (184.6ms)
+
+
+Started GET "/songs?class=song_upload&id=song_title" for ::1 at 2017-07-17 14:54:55 +0530
+
+SyntaxError (/Users/standarduser/Documents/ROR_pmusic/app/controllers/songs_controller.rb:28: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/controllers/songs_controller.rb:28: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.7ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.7ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.3ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (120.9ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (79.2ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (177.1ms)
+
+
+Started GET "/songs?class=song_upload&id=song_title" for ::1 at 2017-07-17 14:55:26 +0530
+Processing by SongsController#index as HTML
+  Parameters: {"class"=>"song_upload", "id"=>"song_title"}
+  Rendered songs/index.html.erb within layouts/application (1.8ms)
+Completed 500 Internal Server Error in 42ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/Users/standarduser/Documents/ROR_pmusic/app/views/songs/index.html.erb:26: syntax error, unexpected tIDENTIFIER, expecting ')'
+...ppend=( button_to "Delete" song, method: :delete, class: "bt...
+...                               ^
+/Users/standarduser/Documents/ROR_pmusic/app/views/songs/index.html.erb:26: syntax error, unexpected ',', expecting ')'
+...lete, class: "btn btn-danger" ,confirm: "Are you sure that y...
+...                               ^):
+  app/views/songs/index.html.erb:26: syntax error, unexpected tIDENTIFIER, expecting ')'
+  app/views/songs/index.html.erb:26: syntax error, unexpected ',', expecting ')'
+
+
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (19.6ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.3ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (129.2ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (77.8ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (174.7ms)
+
+
+Started GET "/songs?class=song_upload&id=song_title" for ::1 at 2017-07-17 14:57:14 +0530
+Processing by SongsController#index as HTML
+  Parameters: {"class"=>"song_upload", "id"=>"song_title"}
+  Rendered songs/index.html.erb within layouts/application (1.4ms)
+Completed 500 Internal Server Error in 28ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/Users/standarduser/Documents/ROR_pmusic/app/views/songs/index.html.erb:26: syntax error, unexpected tIDENTIFIER, expecting ')'
+...ppend=( button_to "Delete" song, method: :delete, class: "bt...
+...                               ^
+/Users/standarduser/Documents/ROR_pmusic/app/views/songs/index.html.erb:26: syntax error, unexpected ',', expecting ')'
+...lete, class: "btn btn-danger" ,confirm: "Are you sure that y...
+...                               ^):
+  app/views/songs/index.html.erb:26: syntax error, unexpected tIDENTIFIER, expecting ')'
+  app/views/songs/index.html.erb:26: syntax error, unexpected ',', expecting ')'
+
+
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (13.0ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.3ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (122.6ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (80.2ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (185.1ms)
+
+
+Started GET "/songs?class=song_upload&id=song_title" for ::1 at 2017-07-17 14:57:32 +0530
+Processing by SongsController#index as HTML
+  Parameters: {"class"=>"song_upload", "id"=>"song_title"}
+  Rendered songs/index.html.erb within layouts/application (1.8ms)
+Completed 500 Internal Server Error in 25ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/Users/standarduser/Documents/ROR_pmusic/app/views/songs/index.html.erb:26: syntax error, unexpected tIDENTIFIER, expecting ')'
+...ppend=( button_to "Delete" song, method: :delete, class: "bt...
+...                               ^
+/Users/standarduser/Documents/ROR_pmusic/app/views/songs/index.html.erb:26: syntax error, unexpected ',', expecting ')'
+...lete, class: "btn btn-danger" ,confirm: "Are you sure that y...
+...                               ^):
+  app/views/songs/index.html.erb:26: syntax error, unexpected tIDENTIFIER, expecting ')'
+  app/views/songs/index.html.erb:26: syntax error, unexpected ',', expecting ')'
+
+
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (11.0ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.0ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (124.9ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (79.3ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (179.3ms)
+
+
+Started GET "/songs?class=song_upload&id=song_title" for ::1 at 2017-07-17 14:58:54 +0530
+Processing by SongsController#index as HTML
+  Parameters: {"class"=>"song_upload", "id"=>"song_title"}
+  [1m[36mSong Load (0.6ms)[0m  [1mSELECT "songs".* FROM "songs"[0m
+  Rendered songs/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 413ms (Views: 412.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/songs?class=song_upload&id=song_title" for ::1 at 2017-07-17 14:58:58 +0530
+Processing by SongsController#index as HTML
+  Parameters: {"class"=>"song_upload", "id"=>"song_title"}
+  [1m[35mSong Load (0.2ms)[0m  SELECT "songs".* FROM "songs"
+  Rendered songs/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 102ms (Views: 101.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/songs?class=song_upload&id=song_title" for ::1 at 2017-07-17 14:59:00 +0530
+Processing by SongsController#index as HTML
+  Parameters: {"class"=>"song_upload", "id"=>"song_title"}
+  [1m[36mSong Load (0.7ms)[0m  [1mSELECT "songs".* FROM "songs"[0m
+  Rendered songs/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 87ms (Views: 85.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/songs?class=song_upload&id=song_title" for ::1 at 2017-07-17 14:59:50 +0530
+Processing by SongsController#index as HTML
+  Parameters: {"class"=>"song_upload", "id"=>"song_title"}
+  [1m[35mSong Load (0.1ms)[0m  SELECT "songs".* FROM "songs"
+  Rendered songs/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 69ms (Views: 68.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/songs?class=song_upload&id=song_title" for ::1 at 2017-07-17 14:59:53 +0530
+Processing by SongsController#index as HTML
+  Parameters: {"class"=>"song_upload", "id"=>"song_title"}
+  [1m[36mSong Load (0.1ms)[0m  [1mSELECT "songs".* FROM "songs"[0m
+  Rendered songs/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 79ms (Views: 77.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/info/routes" for ::1 at 2017-07-17 15:00:27 +0530
+
+ActionController::RoutingError (No route matches [GET] "/info/routes"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.8) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.8) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.8) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.8) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.8) lib/rack/lock.rb:17:in `call'
+  rack (1.6.8) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.8) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/standarduser/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/standarduser/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/standarduser/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.7ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (23.6ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (223.8ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.8ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (84.8ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (181.4ms)
+
+
+Started GET "/songs?class=song_upload&id=song_title" for ::1 at 2017-07-17 15:01:00 +0530
+Processing by SongsController#index as HTML
+  Parameters: {"class"=>"song_upload", "id"=>"song_title"}
+  [1m[35mSong Load (0.2ms)[0m  SELECT "songs".* FROM "songs"
+  Rendered songs/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 544ms (Views: 543.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/songs?class=song_upload&id=song_title" for ::1 at 2017-07-17 15:01:50 +0530
+Processing by SongsController#index as HTML
+  Parameters: {"class"=>"song_upload", "id"=>"song_title"}
+  [1m[36mSong Load (0.1ms)[0m  [1mSELECT "songs".* FROM "songs"[0m
+  Rendered songs/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 78ms (Views: 77.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/songs?class=song_upload&id=song_title" for ::1 at 2017-07-17 15:02:06 +0530
+Processing by SongsController#index as HTML
+  Parameters: {"class"=>"song_upload", "id"=>"song_title"}
+  [1m[35mSong Load (0.1ms)[0m  SELECT "songs".* FROM "songs"
+  Rendered songs/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 91ms (Views: 90.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/songs?class=song_upload&id=song_title" for ::1 at 2017-07-17 15:02:58 +0530
+Processing by SongsController#index as HTML
+  Parameters: {"class"=>"song_upload", "id"=>"song_title"}
+  [1m[36mSong Load (0.1ms)[0m  [1mSELECT "songs".* FROM "songs"[0m
+  Rendered songs/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 71ms (Views: 69.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/songs?class=song_upload&id=song_title" for ::1 at 2017-07-17 15:03:24 +0530
+Processing by SongsController#index as HTML
+  Parameters: {"class"=>"song_upload", "id"=>"song_title"}
+  [1m[35mSong Load (0.1ms)[0m  SELECT "songs".* FROM "songs"
+  Rendered songs/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 69ms (Views: 67.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/songs?class=song_upload&id=song_title" for ::1 at 2017-07-17 15:04:04 +0530
+Processing by SongsController#index as HTML
+  Parameters: {"class"=>"song_upload", "id"=>"song_title"}
+  [1m[36mSong Load (0.2ms)[0m  [1mSELECT "songs".* FROM "songs"[0m
+  Rendered songs/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 68ms (Views: 67.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/songs?class=song_upload&id=song_title" for ::1 at 2017-07-17 15:04:05 +0530
+Processing by SongsController#index as HTML
+  Parameters: {"class"=>"song_upload", "id"=>"song_title"}
+  [1m[35mSong Load (0.2ms)[0m  SELECT "songs".* FROM "songs"
+  Rendered songs/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 97ms (Views: 96.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/songs?class=song_upload&id=song_title" for ::1 at 2017-07-17 15:04:48 +0530
+Processing by SongsController#index as HTML
+  Parameters: {"class"=>"song_upload", "id"=>"song_title"}
+  [1m[36mSong Load (0.3ms)[0m  [1mSELECT "songs".* FROM "songs"[0m
+  Rendered songs/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 69ms (Views: 68.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/songs?class=song_upload&id=song_title" for ::1 at 2017-07-17 15:05:00 +0530
+Processing by SongsController#index as HTML
+  Parameters: {"class"=>"song_upload", "id"=>"song_title"}
+  [1m[35mSong Load (0.1ms)[0m  SELECT "songs".* FROM "songs"
+  Rendered songs/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 75ms (Views: 74.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/songs?class=song_upload&id=song_title" for ::1 at 2017-07-17 15:05:28 +0530
+Processing by SongsController#index as HTML
+  Parameters: {"class"=>"song_upload", "id"=>"song_title"}
+  [1m[36mSong Load (0.2ms)[0m  [1mSELECT "songs".* FROM "songs"[0m
+  Rendered songs/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 72ms (Views: 71.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/songs?class=song_upload&id=song_title" for ::1 at 2017-07-17 15:06:12 +0530
+Processing by SongsController#index as HTML
+  Parameters: {"class"=>"song_upload", "id"=>"song_title"}
+  [1m[35mSong Load (0.1ms)[0m  SELECT "songs".* FROM "songs"
+  Rendered songs/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 80ms (Views: 79.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/songs?class=song_upload&id=song_title" for ::1 at 2017-07-17 15:06:34 +0530
+Processing by SongsController#index as HTML
+  Parameters: {"class"=>"song_upload", "id"=>"song_title"}
+  [1m[36mSong Load (0.1ms)[0m  [1mSELECT "songs".* FROM "songs"[0m
+  Rendered songs/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 75ms (Views: 73.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/songs?class=song_upload&id=song_title" for ::1 at 2017-07-17 15:06:37 +0530
+Processing by SongsController#index as HTML
+  Parameters: {"class"=>"song_upload", "id"=>"song_title"}
+  [1m[35mSong Load (0.2ms)[0m  SELECT "songs".* FROM "songs"
+  Rendered songs/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 67ms (Views: 66.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/songs?class=song_upload&id=song_title" for ::1 at 2017-07-17 15:06:50 +0530
+Processing by SongsController#index as HTML
+  Parameters: {"class"=>"song_upload", "id"=>"song_title"}
+  [1m[36mSong Load (0.1ms)[0m  [1mSELECT "songs".* FROM "songs"[0m
+  Rendered songs/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 78ms (Views: 77.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/songs?class=song_upload&id=song_title" for ::1 at 2017-07-17 15:07:00 +0530
+Processing by SongsController#index as HTML
+  Parameters: {"class"=>"song_upload", "id"=>"song_title"}
+  [1m[35mSong Load (0.1ms)[0m  SELECT "songs".* FROM "songs"
+  Rendered songs/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 68ms (Views: 67.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/songs" for ::1 at 2017-07-17 15:08:24 +0530
+Processing by SongsController#index as HTML
+  [1m[36mSong Load (0.3ms)[0m  [1mSELECT "songs".* FROM "songs"[0m
+  Rendered songs/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 107ms (Views: 105.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2017-07-17 15:08:27 +0530
+Processing by IndexController#show as HTML
+  Rendered index/show.html.erb within layouts/application (47.1ms)
+Completed 200 OK in 137ms (Views: 136.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/songs" for ::1 at 2017-07-17 15:08:41 +0530
+Processing by SongsController#index as HTML
+  [1m[35mSong Load (0.2ms)[0m  SELECT "songs".* FROM "songs"
+  Rendered songs/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 112ms (Views: 111.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/songs" for ::1 at 2017-07-17 15:09:02 +0530
+Processing by SongsController#index as HTML
+  [1m[36mSong Load (0.1ms)[0m  [1mSELECT "songs".* FROM "songs"[0m
+  Rendered songs/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 90ms (Views: 89.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/songs" for ::1 at 2017-07-17 15:10:49 +0530
+Processing by SongsController#index as HTML
+  [1m[35mSong Load (0.1ms)[0m  SELECT "songs".* FROM "songs"
+  Rendered songs/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 70ms (Views: 69.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/songs" for ::1 at 2017-07-17 15:19:40 +0530
+Processing by SongsController#index as HTML
+  [1m[36mSong Load (0.2ms)[0m  [1mSELECT "songs".* FROM "songs"[0m
+  Rendered songs/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 224ms (Views: 222.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/songs/new" for ::1 at 2017-07-17 15:19:43 +0530
+Processing by SongsController#new as HTML
+  Rendered songs/new.html.erb within layouts/application (1.5ms)
+Completed 500 Internal Server Error in 23ms (ActiveRecord: 0.5ms)
+
+SyntaxError (/Users/standarduser/Documents/ROR_pmusic/app/views/songs/new.html.erb:10: syntax error, unexpected keyword_do_block
+...fer.append=  form_for @song, do |f| @output_buffer.safe_appe...
+...                               ^
+/Users/standarduser/Documents/ROR_pmusic/app/views/songs/new.html.erb:29: syntax error, unexpected keyword_ensure, expecting end-of-input):
+  app/views/songs/new.html.erb:10: syntax error, unexpected keyword_do_block
+  app/views/songs/new.html.erb:29: syntax error, unexpected keyword_ensure, expecting end-of-input
+
+
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (11.2ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.8ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (123.5ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (79.5ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (178.4ms)
+
+
+Started GET "/songs/new" for ::1 at 2017-07-17 15:20:24 +0530
+Processing by SongsController#new as HTML
+  Rendered songs/new.html.erb within layouts/application (1.4ms)
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/Users/standarduser/Documents/ROR_pmusic/app/views/songs/new.html.erb:10: syntax error, unexpected keyword_do_block
+...er.append=  form_for(@song), do |f| @output_buffer.safe_appe...
+...                               ^
+/Users/standarduser/Documents/ROR_pmusic/app/views/songs/new.html.erb:29: syntax error, unexpected keyword_ensure, expecting end-of-input):
+  app/views/songs/new.html.erb:10: syntax error, unexpected keyword_do_block
+  app/views/songs/new.html.erb:29: syntax error, unexpected keyword_ensure, expecting end-of-input
+
+
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (11.6ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.8ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (126.1ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (83.3ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (209.1ms)
+
+
+Started GET "/songs/new" for ::1 at 2017-07-17 15:24:02 +0530
+Processing by SongsController#new as HTML
+  Rendered songs/new.html.erb within layouts/application (2.1ms)
+Completed 500 Internal Server Error in 27ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/Users/standarduser/Documents/ROR_pmusic/app/views/songs/new.html.erb:10: syntax error, unexpected tLABEL
+....append=  form_for(@song),html: {multipart: true} do |f| @ou...
+...                               ^
+/Users/standarduser/Documents/ROR_pmusic/app/views/songs/new.html.erb:10: syntax error, unexpected keyword_do_block, expecting keyword_end
+...ong),html: {multipart: true} do |f| @output_buffer.safe_appe...
+...                               ^
+/Users/standarduser/Documents/ROR_pmusic/app/views/songs/new.html.erb:29: syntax error, unexpected keyword_ensure, expecting end-of-input):
+  app/views/songs/new.html.erb:10: syntax error, unexpected tLABEL
+  app/views/songs/new.html.erb:10: syntax error, unexpected keyword_do_block, expecting keyword_end
+  app/views/songs/new.html.erb:29: syntax error, unexpected keyword_ensure, expecting end-of-input
+
+
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (11.3ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.8ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (125.1ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (79.1ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (178.1ms)
+
+
+Started GET "/songs/new" for ::1 at 2017-07-17 15:25:44 +0530
+Processing by SongsController#new as HTML
+  Rendered songs/new.html.erb within layouts/application (1.7ms)
+Completed 500 Internal Server Error in 29ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/Users/standarduser/Documents/ROR_pmusic/app/views/songs/new.html.erb:10: syntax error, unexpected tLABEL
+....append=  form_for(@song),html: {multipart: true} do |f| @ou...
+...                               ^
+/Users/standarduser/Documents/ROR_pmusic/app/views/songs/new.html.erb:10: syntax error, unexpected keyword_do_block, expecting keyword_end
+...ong),html: {multipart: true} do |f| @output_buffer.safe_appe...
+...                               ^
+/Users/standarduser/Documents/ROR_pmusic/app/views/songs/new.html.erb:29: syntax error, unexpected keyword_ensure, expecting end-of-input):
+  app/views/songs/new.html.erb:10: syntax error, unexpected tLABEL
+  app/views/songs/new.html.erb:10: syntax error, unexpected keyword_do_block, expecting keyword_end
+  app/views/songs/new.html.erb:29: syntax error, unexpected keyword_ensure, expecting end-of-input
+
+
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (11.2ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.5ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (124.2ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (78.8ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (181.7ms)
+
+
+Started GET "/songs/new" for ::1 at 2017-07-17 15:28:54 +0530
+Processing by SongsController#new as HTML
+  Rendered songs/new.html.erb within layouts/application (2.2ms)
+Completed 500 Internal Server Error in 27ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/Users/standarduser/Documents/ROR_pmusic/app/views/songs/new.html.erb:10: syntax error, unexpected tLABEL
+....append=  form_for(@song),html: {multipart: true} do |f| @ou...
+...                               ^
+/Users/standarduser/Documents/ROR_pmusic/app/views/songs/new.html.erb:10: syntax error, unexpected keyword_do_block, expecting keyword_end
+...ong),html: {multipart: true} do |f| @output_buffer.safe_appe...
+...                               ^
+/Users/standarduser/Documents/ROR_pmusic/app/views/songs/new.html.erb:29: syntax error, unexpected keyword_ensure, expecting end-of-input):
+  app/views/songs/new.html.erb:10: syntax error, unexpected tLABEL
+  app/views/songs/new.html.erb:10: syntax error, unexpected keyword_do_block, expecting keyword_end
+  app/views/songs/new.html.erb:29: syntax error, unexpected keyword_ensure, expecting end-of-input
+
+
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (11.3ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.2ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (127.7ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (79.1ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (179.9ms)
+
+
+Started GET "/songs/new" for ::1 at 2017-07-17 15:29:49 +0530
+Processing by SongsController#new as HTML
+  Rendered songs/new.html.erb within layouts/application (1.4ms)
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/Users/standarduser/Documents/ROR_pmusic/app/views/songs/new.html.erb:10: syntax error, unexpected tLABEL
+....append=  form_for(@song),html: {multipart: true} do |f| @ou...
+...                               ^
+/Users/standarduser/Documents/ROR_pmusic/app/views/songs/new.html.erb:10: syntax error, unexpected keyword_do_block, expecting keyword_end
+...ong),html: {multipart: true} do |f| @output_buffer.safe_appe...
+...                               ^
+/Users/standarduser/Documents/ROR_pmusic/app/views/songs/new.html.erb:29: syntax error, unexpected keyword_ensure, expecting end-of-input):
+  app/views/songs/new.html.erb:10: syntax error, unexpected tLABEL
+  app/views/songs/new.html.erb:10: syntax error, unexpected keyword_do_block, expecting keyword_end
+  app/views/songs/new.html.erb:29: syntax error, unexpected keyword_ensure, expecting end-of-input
+
+
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (13.5ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.3ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (131.6ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (82.2ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (12.6ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (198.0ms)
+
+
+Started GET "/songs/new" for ::1 at 2017-07-17 15:30:03 +0530
+Processing by SongsController#new as HTML
+  Rendered songs/new.html.erb within layouts/application (1.4ms)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/Users/standarduser/Documents/ROR_pmusic/app/views/songs/new.html.erb:10: syntax error, unexpected tLABEL
+....append=  form_for(@song),html: {multipart: true} do |f| @ou...
+...                               ^
+/Users/standarduser/Documents/ROR_pmusic/app/views/songs/new.html.erb:10: syntax error, unexpected keyword_do_block, expecting keyword_end
+...ong),html: {multipart: true} do |f| @output_buffer.safe_appe...
+...                               ^
+/Users/standarduser/Documents/ROR_pmusic/app/views/songs/new.html.erb:29: syntax error, unexpected keyword_ensure, expecting end-of-input):
+  app/views/songs/new.html.erb:10: syntax error, unexpected tLABEL
+  app/views/songs/new.html.erb:10: syntax error, unexpected keyword_do_block, expecting keyword_end
+  app/views/songs/new.html.erb:29: syntax error, unexpected keyword_ensure, expecting end-of-input
+
+
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (11.5ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.4ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (121.7ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (79.2ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (179.7ms)
+
+
+Started GET "/songs/new" for ::1 at 2017-07-17 15:32:39 +0530
+Processing by SongsController#new as HTML
+  Rendered songs/new.html.erb within layouts/application (339.4ms)
+Completed 500 Internal Server Error in 351ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `song_name' for #<Song:0x007fe1f09647c0>):
+    10: 				<%= form_for(@song) do |f| %>
+    11: 					<p>
+    12: 						<%= f.label :song_title %><br>
+    13: 						<%= f.text_field :song_name%>
+    14: 					</p>
+    15: 					<p>
+    16: 						<%= f.label :attachment %><br>
+  app/views/songs/new.html.erb:13:in `block in _app_views_songs_new_html_erb__4051607519323343373_70304190362840'
+  app/views/songs/new.html.erb:10:in `_app_views_songs_new_html_erb__4051607519323343373_70304190362840'
+
+
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (11.9ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.0ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (145.6ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (78.0ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (176.3ms)
+
+
+Started GET "/songs/new" for ::1 at 2017-07-17 15:33:14 +0530
+Processing by SongsController#new as HTML
+  Rendered songs/new.html.erb within layouts/application (5.4ms)
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `attachment' for #<Song:0x007fe1f12817b8>):
+    14: 					</p>
+    15: 					<p>
+    16: 						<%= f.label :attachment %><br>
+    17: 						<%= f.text_field :attachment%>
+    18: 					</p>
+    19: 					<p>
+    20: 						<% f.submit "Upload",class: "btn btn-primary" %>
+  app/views/songs/new.html.erb:17:in `block in _app_views_songs_new_html_erb__4051607519323343373_70304194951900'
+  app/views/songs/new.html.erb:10:in `_app_views_songs_new_html_erb__4051607519323343373_70304194951900'
+
+
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (11.3ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.7ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (126.2ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (80.1ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (182.6ms)
+
+
+Started GET "/songs/new" for ::1 at 2017-07-17 15:33:39 +0530
+Processing by SongsController#new as HTML
+  Rendered songs/new.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 569ms (Views: 568.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/songs/new" for ::1 at 2017-07-17 15:33:54 +0530
+Processing by SongsController#new as HTML
+  Rendered songs/new.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 226ms (Views: 217.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/songs/new" for ::1 at 2017-07-17 15:34:36 +0530
+Processing by SongsController#new as HTML
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/Users/standarduser/Documents/ROR_pmusic/app/models/song.rb:2: syntax error, unexpected tCONSTANT, expecting keyword_end):
+  app/models/song.rb:2: syntax error, unexpected tCONSTANT, expecting keyword_end
+  app/controllers/songs_controller.rb:7:in `new'
+
+
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.2ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.1ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (118.5ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (82.8ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (183.6ms)
+
+
+Started GET "/songs/new" for ::1 at 2017-07-17 15:34:47 +0530
+Processing by SongsController#new as HTML
+  Rendered songs/new.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 555ms (Views: 493.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/songs/new" for ::1 at 2017-07-17 15:37:02 +0530
+Processing by SongsController#new as HTML
+  Rendered songs/new.html.erb within layouts/application (75.2ms)
+Completed 200 OK in 632ms (Views: 631.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/songs/new" for ::1 at 2017-07-17 15:37:44 +0530
+Processing by SongsController#new as HTML
+  Rendered songs/new.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 629ms (Views: 628.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/songs/new" for ::1 at 2017-07-17 15:39:06 +0530
+Processing by SongsController#new as HTML
+  Rendered songs/new.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 584ms (Views: 582.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/songs" for ::1 at 2017-07-17 15:39:23 +0530
+Processing by SongsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"cdeKs9BBONC+IPXM6y4tpzf6t9m3X/Xiuw/uLutGFlotxc01G2thB9xse2BOrB/SDpWiLWjcz0VNQSNzR9aPaQ==", "song"=>{"song_title"=>"news1", "song_url"=>#<ActionDispatch::Http::UploadedFile:0x007fe1ee830b80 @tempfile=#<Tempfile:/var/folders/sk/6xrfbn6d68569z1sxc2z_2240000gr/T/RackMultipart20170717-1238-1y0c4zs.zip>, @original_filename="atom-mac (2).zip", @content_type="application/zip", @headers="Content-Disposition: form-data; name=\"song[song_url]\"; filename=\"atom-mac (2).zip\"\r\nContent-Type: application/zip\r\n">}, "commit"=>"Upload"}
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms)
+
+NameError (undefined local variable or method `song_params' for #<SongsController:0x007fe1ee832a98>):
+  app/controllers/songs_controller.rb:10:in `create'
+
+
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.7ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.2ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (119.2ms)
+Cannot render console with content type multipart/form-dataAllowed content types: [#<Mime::Type:0x007fe1ed818798 @synonyms=["application/xhtml+xml"], @symbol=:html, @string="text/html">, #<Mime::Type:0x007fe1ed8184c8 @synonyms=[], @symbol=:text, @string="text/plain">, #<Mime::Type:0x007fe1ed8228b0 @synonyms=[], @symbol=:url_encoded_form, @string="application/x-www-form-urlencoded">]
+
+
+Started POST "/songs" for ::1 at 2017-07-17 15:40:31 +0530
+Processing by SongsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"cdeKs9BBONC+IPXM6y4tpzf6t9m3X/Xiuw/uLutGFlotxc01G2thB9xse2BOrB/SDpWiLWjcz0VNQSNzR9aPaQ==", "song"=>{"song_title"=>"news1", "song_url"=>#<ActionDispatch::Http::UploadedFile:0x007fe1eeedf4b8 @tempfile=#<Tempfile:/var/folders/sk/6xrfbn6d68569z1sxc2z_2240000gr/T/RackMultipart20170717-1238-1cpy2ad.zip>, @original_filename="atom-mac (2).zip", @content_type="application/zip", @headers="Content-Disposition: form-data; name=\"song[song_url]\"; filename=\"atom-mac (2).zip\"\r\nContent-Type: application/zip\r\n">}, "commit"=>"Upload"}
+Completed 500 Internal Server Error in 49ms (ActiveRecord: 0.6ms)
+
+ArgumentError (When assigning attributes, you must pass a hash as an argument.):
+  app/controllers/songs_controller.rb:10:in `create'
+
+
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.6ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.3ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (140.1ms)
+Cannot render console with content type multipart/form-dataAllowed content types: [#<Mime::Type:0x007fe1ed818798 @synonyms=["application/xhtml+xml"], @symbol=:html, @string="text/html">, #<Mime::Type:0x007fe1ed8184c8 @synonyms=[], @symbol=:text, @string="text/plain">, #<Mime::Type:0x007fe1ed8228b0 @synonyms=[], @symbol=:url_encoded_form, @string="application/x-www-form-urlencoded">]
+
+
+Started POST "/songs" for ::1 at 2017-07-17 15:41:12 +0530
+Processing by SongsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"cdeKs9BBONC+IPXM6y4tpzf6t9m3X/Xiuw/uLutGFlotxc01G2thB9xse2BOrB/SDpWiLWjcz0VNQSNzR9aPaQ==", "song"=>{"song_title"=>"news1", "song_url"=>#<ActionDispatch::Http::UploadedFile:0x007fe1eef77ee8 @tempfile=#<Tempfile:/var/folders/sk/6xrfbn6d68569z1sxc2z_2240000gr/T/RackMultipart20170717-1238-1tu9caa.zip>, @original_filename="atom-mac (2).zip", @content_type="application/zip", @headers="Content-Disposition: form-data; name=\"song[song_url]\"; filename=\"atom-mac (2).zip\"\r\nContent-Type: application/zip\r\n">}, "commit"=>"Upload"}
+Completed 500 Internal Server Error in 33ms (ActiveRecord: 0.0ms)
+
+NameError (undefined local variable or method `song_params' for #<SongsController:0x007fe1f0a46788>):
+  app/controllers/songs_controller.rb:10:in `create'
+
+
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.7ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (119.4ms)
+Cannot render console with content type multipart/form-dataAllowed content types: [#<Mime::Type:0x007fe1ed818798 @synonyms=["application/xhtml+xml"], @symbol=:html, @string="text/html">, #<Mime::Type:0x007fe1ed8184c8 @synonyms=[], @symbol=:text, @string="text/plain">, #<Mime::Type:0x007fe1ed8228b0 @synonyms=[], @symbol=:url_encoded_form, @string="application/x-www-form-urlencoded">]
+
+
+Started POST "/songs" for ::1 at 2017-07-17 15:42:52 +0530
+
+SyntaxError (/Users/standarduser/Documents/ROR_pmusic/app/controllers/songs_controller.rb:28: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/controllers/songs_controller.rb:28: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.6ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (122.1ms)
+Cannot render console with content type multipart/form-dataAllowed content types: [#<Mime::Type:0x007fe1ed818798 @synonyms=["application/xhtml+xml"], @symbol=:html, @string="text/html">, #<Mime::Type:0x007fe1ed8184c8 @synonyms=[], @symbol=:text, @string="text/plain">, #<Mime::Type:0x007fe1ed8228b0 @synonyms=[], @symbol=:url_encoded_form, @string="application/x-www-form-urlencoded">]
+
+
+Started POST "/songs" for ::1 at 2017-07-17 15:43:15 +0530
+Processing by SongsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"cdeKs9BBONC+IPXM6y4tpzf6t9m3X/Xiuw/uLutGFlotxc01G2thB9xse2BOrB/SDpWiLWjcz0VNQSNzR9aPaQ==", "song"=>{"song_title"=>"news1", "song_url"=>#<ActionDispatch::Http::UploadedFile:0x007fe1f1056970 @tempfile=#<Tempfile:/var/folders/sk/6xrfbn6d68569z1sxc2z_2240000gr/T/RackMultipart20170717-1238-1taoehl.zip>, @original_filename="atom-mac (2).zip", @content_type="application/zip", @headers="Content-Disposition: form-data; name=\"song[song_url]\"; filename=\"atom-mac (2).zip\"\r\nContent-Type: application/zip\r\n">}, "commit"=>"Upload"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "songs" ("song_title", "song_url", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["song_title", "news1"], ["song_url", "atom-mac__2_.zip"], ["created_at", "2017-07-17 10:13:21.208321"], ["updated_at", "2017-07-17 10:13:21.208321"]]
+  [1m[35m (1.5ms)[0m  commit transaction
+Completed 500 Internal Server Error in 12607ms (ActiveRecord: 2.7ms)
+
+NameError (undefined local variable or method `song' for #<SongsController:0x007fe1f1481518>):
+  app/controllers/songs_controller.rb:14:in `create'
+
+
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.1ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.4ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (125.7ms)
+Cannot render console with content type multipart/form-dataAllowed content types: [#<Mime::Type:0x007fe1ed818798 @synonyms=["application/xhtml+xml"], @symbol=:html, @string="text/html">, #<Mime::Type:0x007fe1ed8184c8 @synonyms=[], @symbol=:text, @string="text/plain">, #<Mime::Type:0x007fe1ed8228b0 @synonyms=[], @symbol=:url_encoded_form, @string="application/x-www-form-urlencoded">]
+
+
+Started POST "/songs" for ::1 at 2017-07-17 15:44:15 +0530
+Processing by SongsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"cdeKs9BBONC+IPXM6y4tpzf6t9m3X/Xiuw/uLutGFlotxc01G2thB9xse2BOrB/SDpWiLWjcz0VNQSNzR9aPaQ==", "song"=>{"song_title"=>"news1", "song_url"=>#<ActionDispatch::Http::UploadedFile:0x007fe1f14e8d58 @tempfile=#<Tempfile:/var/folders/sk/6xrfbn6d68569z1sxc2z_2240000gr/T/RackMultipart20170717-1238-d9jelk.zip>, @original_filename="atom-mac (2).zip", @content_type="application/zip", @headers="Content-Disposition: form-data; name=\"song[song_url]\"; filename=\"atom-mac (2).zip\"\r\nContent-Type: application/zip\r\n">}, "commit"=>"Upload"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "songs" ("song_title", "song_url", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["song_title", "news1"], ["song_url", "atom-mac__2_.zip"], ["created_at", "2017-07-17 10:14:22.245679"], ["updated_at", "2017-07-17 10:14:22.245679"]]
+  [1m[36m (322.7ms)[0m  [1mcommit transaction[0m
+Completed 500 Internal Server Error in 12786ms (ActiveRecord: 323.9ms)
+
+NoMethodError (undefined method `name' for #<Song:0x007fe1f1493330>):
+  app/controllers/songs_controller.rb:14:in `create'
+
+
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.4ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.9ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.3ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (169.9ms)
+Cannot render console with content type multipart/form-dataAllowed content types: [#<Mime::Type:0x007fe1ed818798 @synonyms=["application/xhtml+xml"], @symbol=:html, @string="text/html">, #<Mime::Type:0x007fe1ed8184c8 @synonyms=[], @symbol=:text, @string="text/plain">, #<Mime::Type:0x007fe1ed8228b0 @synonyms=[], @symbol=:url_encoded_form, @string="application/x-www-form-urlencoded">]
+
+
+Started POST "/songs" for ::1 at 2017-07-17 15:44:58 +0530
+Processing by SongsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"cdeKs9BBONC+IPXM6y4tpzf6t9m3X/Xiuw/uLutGFlotxc01G2thB9xse2BOrB/SDpWiLWjcz0VNQSNzR9aPaQ==", "song"=>{"song_title"=>"news1", "song_url"=>#<ActionDispatch::Http::UploadedFile:0x007fe1f0a5d910 @tempfile=#<Tempfile:/var/folders/sk/6xrfbn6d68569z1sxc2z_2240000gr/T/RackMultipart20170717-1238-17yizx.zip>, @original_filename="atom-mac (2).zip", @content_type="application/zip", @headers="Content-Disposition: form-data; name=\"song[song_url]\"; filename=\"atom-mac (2).zip\"\r\nContent-Type: application/zip\r\n">}, "commit"=>"Upload"}
+  [1m[35m (0.9ms)[0m  begin transaction
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "songs" ("song_title", "song_url", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["song_title", "news1"], ["song_url", "atom-mac__2_.zip"], ["created_at", "2017-07-17 10:15:10.762069"], ["updated_at", "2017-07-17 10:15:10.762069"]]
+  [1m[35m (130.6ms)[0m  commit transaction
+Redirected to http://localhost:3000/songs
+Completed 302 Found in 23944ms (ActiveRecord: 133.0ms)
+
+
+Started GET "/songs" for ::1 at 2017-07-17 15:45:23 +0530
+Processing by SongsController#index as HTML
+  [1m[36mSong Load (55.9ms)[0m  [1mSELECT "songs".* FROM "songs"[0m
+  Rendered songs/index.html.erb within layouts/application (61.8ms)
+Completed 500 Internal Server Error in 185ms (ActiveRecord: 55.9ms)
+
+ActionView::Template::Error (undefined method `name' for #<Song:0x007fe1f0ae6968>):
+    17: 				<tbody>
+    18: 					<% @songs.each do |song| %>
+    19: 						<tr>
+    20: 							<td><%= song.name %></td>
+    21: 							<td><%= link_to "Download" %></td>
+    22: 							<td><%= button_to "Delete song", method: :delete, class: "btn btn-danger" ,confirm: "Are you sure that you wish to delete #{song.name}?" %></td>
+    23: 						</tr>
+  app/views/songs/index.html.erb:20:in `block in _app_views_songs_index_html_erb___1298105507706839144_70304189761960'
+  app/views/songs/index.html.erb:18:in `_app_views_songs_index_html_erb___1298105507706839144_70304189761960'
+
+
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (11.8ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.4ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.8ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (572.3ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (3.3ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.8ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (478.5ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (683.4ms)
+
+
+Started GET "/songs" for ::1 at 2017-07-17 15:47:33 +0530
+Processing by SongsController#index as HTML
+  [1m[35mSong Load (0.5ms)[0m  SELECT "songs".* FROM "songs"
+  Rendered songs/index.html.erb within layouts/application (15.9ms)
+Completed 200 OK in 545ms (Views: 540.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/songs/new" for ::1 at 2017-07-17 15:47:48 +0530
+Processing by SongsController#new as HTML
+  Rendered songs/new.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 118ms (Views: 117.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/songs" for ::1 at 2017-07-17 15:48:20 +0530
+Processing by SongsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wHqkRgOb9/apk//pHgmIPiFA8QCF9uW3t0DDzEHGhwmcaOPAyLGuIcvfcUW7i7pLGC/k9Fp13xBBDg6R7VYeOg==", "song"=>{"song_title"=>"another", "song_url"=>#<ActionDispatch::Http::UploadedFile:0x007fe1f12f0690 @tempfile=#<Tempfile:/var/folders/sk/6xrfbn6d68569z1sxc2z_2240000gr/T/RackMultipart20170717-1238-1vx2mrm.html>, @original_filename="url.html", @content_type="text/html", @headers="Content-Disposition: form-data; name=\"song[song_url]\"; filename=\"url.html\"\r\nContent-Type: text/html\r\n">}, "commit"=>"Upload"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "songs" ("song_title", "song_url", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["song_title", "another"], ["song_url", "url.html"], ["created_at", "2017-07-17 10:18:20.650217"], ["updated_at", "2017-07-17 10:18:20.650217"]]
+  [1m[36m (37.3ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/songs
+Completed 302 Found in 164ms (ActiveRecord: 37.8ms)
+
+
+Started GET "/songs" for ::1 at 2017-07-17 15:48:20 +0530
+Processing by SongsController#index as HTML
+  [1m[35mSong Load (0.3ms)[0m  SELECT "songs".* FROM "songs"
+  Rendered songs/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 103ms (Views: 102.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/songs" for ::1 at 2017-07-17 15:48:39 +0530
+Processing by SongsController#index as HTML
+  [1m[36mSong Load (0.3ms)[0m  [1mSELECT "songs".* FROM "songs"[0m
+  Rendered songs/index.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 100ms (Views: 98.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/songs" for ::1 at 2017-07-17 15:48:39 +0530
+Processing by SongsController#index as HTML
+  [1m[35mSong Load (0.3ms)[0m  SELECT "songs".* FROM "songs"
+  Rendered songs/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 86ms (Views: 84.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/songs" for ::1 at 2017-07-17 15:48:54 +0530
+Processing by SongsController#index as HTML
+  [1m[36mSong Load (0.2ms)[0m  [1mSELECT "songs".* FROM "songs"[0m
+  Rendered songs/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 76ms (Views: 75.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/songs" for ::1 at 2017-07-17 15:48:57 +0530
+Processing by SongsController#index as HTML
+  [1m[35mSong Load (0.2ms)[0m  SELECT "songs".* FROM "songs"
+  Rendered songs/index.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 96ms (Views: 95.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/songs" for ::1 at 2017-07-17 15:49:13 +0530
+Processing by SongsController#index as HTML
+  [1m[36mSong Load (0.2ms)[0m  [1mSELECT "songs".* FROM "songs"[0m
+  Rendered songs/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 74ms (Views: 73.2ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/songs?class=btn+btn-danger&confirm=Are+you+sure+that+you+wish+to+delete+news1%3F&method=delete" for ::1 at 2017-07-17 15:49:15 +0530
+Processing by SongsController#create as HTML
+  Parameters: {"authenticity_token"=>"lqUavLbgmcskoRJAp9x2eGx2AF4/uXJ6Nps0p6ouAiTKt106fcrAHEbtnOwCXkQNVRkVquA6SN3A1fn6Br6bFw==", "class"=>"btn btn-danger", "confirm"=>"Are you sure that you wish to delete news1?", "method"=>"delete"}
+Completed 400 Bad Request in 1ms (ActiveRecord: 0.0ms)
+
+ActionController::ParameterMissing (param is missing or the value is empty: song):
+  app/controllers/songs_controller.rb:27:in `song_params'
+  app/controllers/songs_controller.rb:11:in `create'
+
+
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.5ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.9ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (129.6ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (88.8ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (194.5ms)
+
+
+Started GET "/songs" for ::1 at 2017-07-17 15:55:47 +0530
+Processing by SongsController#index as HTML
+  [1m[35mSong Load (0.5ms)[0m  SELECT "songs".* FROM "songs"
+  Rendered songs/index.html.erb within layouts/application (21.3ms)
+Completed 200 OK in 509ms (Views: 477.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/songs" for ::1 at 2017-07-17 15:56:08 +0530
+Processing by SongsController#index as HTML
+  [1m[36mSong Load (0.4ms)[0m  [1mSELECT "songs".* FROM "songs"[0m
+  Rendered songs/index.html.erb within layouts/application (8.1ms)
+Completed 200 OK in 257ms (Views: 236.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/songs/new" for ::1 at 2017-07-17 15:56:12 +0530
+Processing by SongsController#new as HTML
+  Rendered songs/new.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 104ms (Views: 102.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/songs" for ::1 at 2017-07-17 15:57:53 +0530
+Processing by SongsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"i4hPPpB3qkkYqMJe8k8MUOPzO7zVfIj5cbwRbds7/9vXmgi4W13znnrkTPJXzT4l2pwuSAr/sl6H8twwd6tm6A==", "song"=>{"song_title"=>"mp33333", "song_url"=>#<ActionDispatch::Http::UploadedFile:0x007fe1f0b4c8f8 @tempfile=#<Tempfile:/var/folders/sk/6xrfbn6d68569z1sxc2z_2240000gr/T/RackMultipart20170717-1238-1lesnxl.mp3>, @original_filename="SampleAudio_0.4mb.mp3", @content_type="audio/mp3", @headers="Content-Disposition: form-data; name=\"song[song_url]\"; filename=\"SampleAudio_0.4mb.mp3\"\r\nContent-Type: audio/mp3\r\n">}, "commit"=>"Upload"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "songs" ("song_title", "song_url", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["song_title", "mp33333"], ["song_url", "SampleAudio_0.4mb.mp3"], ["created_at", "2017-07-17 10:27:53.310280"], ["updated_at", "2017-07-17 10:27:53.310280"]]
+  [1m[35m (2.5ms)[0m  commit transaction
+Redirected to http://localhost:3000/songs
+Completed 302 Found in 20ms (ActiveRecord: 3.0ms)
+
+
+Started GET "/songs" for ::1 at 2017-07-17 15:57:53 +0530
+Processing by SongsController#index as HTML
+  [1m[36mSong Load (0.3ms)[0m  [1mSELECT "songs".* FROM "songs"[0m
+  Rendered songs/index.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 383ms (Views: 382.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/songs/new" for ::1 at 2017-07-17 15:57:58 +0530
+Processing by SongsController#new as HTML
+  Rendered songs/new.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 182ms (Views: 180.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/songs" for ::1 at 2017-07-17 15:58:33 +0530
+Processing by SongsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"clDH/Szxi/XdLQIQWrx7EiaIhze2JTk1LPKu7oJvpMwuQoB759vSIr9hjLz/PklnH+eSw2mmA5LavGOzLv89/w==", "song"=>{"song_title"=>"other", "song_url"=>#<ActionDispatch::Http::UploadedFile:0x007fe1f0830c00 @tempfile=#<Tempfile:/var/folders/sk/6xrfbn6d68569z1sxc2z_2240000gr/T/RackMultipart20170717-1238-bdiba7.docx>, @original_filename="AutopilotMailers.docx", @content_type="application/vnd.openxmlformats-officedocument.wordprocessingml.document", @headers="Content-Disposition: form-data; name=\"song[song_url]\"; filename=\"AutopilotMailers.docx\"\r\nContent-Type: application/vnd.openxmlformats-officedocument.wordprocessingml.document\r\n">}, "commit"=>"Upload"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "songs" ("song_title", "song_url", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["song_title", "other"], ["song_url", "AutopilotMailers.docx"], ["created_at", "2017-07-17 10:28:33.817746"], ["updated_at", "2017-07-17 10:28:33.817746"]]
+  [1m[35m (8.6ms)[0m  commit transaction
+Redirected to http://localhost:3000/songs
+Completed 302 Found in 421ms (ActiveRecord: 9.3ms)
+
+
+Started GET "/songs" for ::1 at 2017-07-17 15:58:33 +0530
+Processing by SongsController#index as HTML
+  [1m[36mSong Load (0.2ms)[0m  [1mSELECT "songs".* FROM "songs"[0m
+  Rendered songs/index.html.erb within layouts/application (28.1ms)
+Completed 200 OK in 377ms (Views: 376.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/songs" for ::1 at 2017-07-17 15:58:40 +0530
+Processing by SongsController#index as HTML
+  [1m[35mSong Load (0.2ms)[0m  SELECT "songs".* FROM "songs"
+  Rendered songs/index.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 80ms (Views: 79.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/songs" for ::1 at 2017-07-17 15:58:45 +0530
+Processing by SongsController#index as HTML
+  [1m[36mSong Load (0.2ms)[0m  [1mSELECT "songs".* FROM "songs"[0m
+  Rendered songs/index.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 127ms (Views: 126.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/songs/new" for ::1 at 2017-07-17 16:01:13 +0530
+Processing by SongsController#new as HTML
+  Rendered songs/new.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 283ms (Views: 264.0ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/songs" for ::1 at 2017-07-17 16:01:30 +0530
+Processing by SongsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"A3miMg2Wf1rLskIk0kBzDTiH1Q9Ff9gVGkzy7iaLqZhfa+W0xrwmjan+zIh3wkF4AejA+5r84rLsAj+zihswqw==", "song"=>{"song_title"=>"another else", "song_url"=>#<ActionDispatch::Http::UploadedFile:0x007fe1f0adde80 @tempfile=#<Tempfile:/var/folders/sk/6xrfbn6d68569z1sxc2z_2240000gr/T/RackMultipart20170717-1238-nmo41f.docx>, @original_filename="akanksha agarwal resume.docx", @content_type="application/vnd.openxmlformats-officedocument.wordprocessingml.document", @headers="Content-Disposition: form-data; name=\"song[song_url]\"; filename=\"akanksha agarwal resume.docx\"\r\nContent-Type: application/vnd.openxmlformats-officedocument.wordprocessingml.document\r\n">}, "commit"=>"Upload"}
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "songs" ("song_title", "song_url", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["song_title", "another else"], ["song_url", "akanksha_agarwal_resume.docx"], ["created_at", "2017-07-17 10:31:30.663090"], ["updated_at", "2017-07-17 10:31:30.663090"]]
+  [1m[35m (342.8ms)[0m  commit transaction
+Redirected to http://localhost:3000/songs
+Completed 302 Found in 511ms (ActiveRecord: 343.4ms)
+
+
+Started GET "/songs" for ::1 at 2017-07-17 16:01:31 +0530
+Processing by SongsController#index as HTML
+  [1m[36mSong Load (13.2ms)[0m  [1mSELECT "songs".* FROM "songs"[0m
+  Rendered songs/index.html.erb within layouts/application (20.2ms)
+Completed 200 OK in 1477ms (Views: 1462.8ms | ActiveRecord: 13.2ms)
+
+
+Started GET "/songs/new" for ::1 at 2017-07-17 16:06:03 +0530
+Processing by SongsController#new as HTML
+  Rendered songs/new.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 558ms (Views: 530.5ms | ActiveRecord: 0.7ms)
+
+
+Started POST "/songs" for ::1 at 2017-07-17 16:06:29 +0530
+Processing by SongsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"brmH0mvsSV53nZxKJlwl6zy51839OL36yrYKOKBzgloyq8BUoMYQiRXREuaD3heeBdbCOSK7h108+MdlDOMbaQ==", "song"=>{"song_title"=>"fcd", "song_url"=>#<ActionDispatch::Http::UploadedFile:0x007fe1f0a4ec30 @tempfile=#<Tempfile:/var/folders/sk/6xrfbn6d68569z1sxc2z_2240000gr/T/RackMultipart20170717-1238-fwlist.docx>, @original_filename="AutopilotMailers.docx", @content_type="application/vnd.openxmlformats-officedocument.wordprocessingml.document", @headers="Content-Disposition: form-data; name=\"song[song_url]\"; filename=\"AutopilotMailers.docx\"\r\nContent-Type: application/vnd.openxmlformats-officedocument.wordprocessingml.document\r\n">}, "commit"=>"Upload"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "songs" ("song_title", "song_url", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["song_title", "fcd"], ["song_url", "AutopilotMailers.docx"], ["created_at", "2017-07-17 10:36:30.505707"], ["updated_at", "2017-07-17 10:36:30.505707"]]
+  [1m[35m (10.1ms)[0m  commit transaction
+Redirected to http://localhost:3000/songs
+Completed 302 Found in 710ms (ActiveRecord: 10.6ms)
+
+
+Started GET "/songs" for ::1 at 2017-07-17 16:06:30 +0530
+Processing by SongsController#index as HTML
+  [1m[36mSong Load (0.3ms)[0m  [1mSELECT "songs".* FROM "songs"[0m
+  Rendered songs/index.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 521ms (Views: 520.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/songs/new" for ::1 at 2017-07-17 16:09:14 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by SongsController#new as HTML
+  Rendered songs/new.html.erb within layouts/application (154.2ms)
+Completed 200 OK in 1775ms (Views: 1724.1ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/songs" for ::1 at 2017-07-17 16:09:25 +0530
+Processing by SongsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"pmyzGw38fZSnJpnysp0r90I9GwkU9XhtkjeEKiRGu9r6fvSdxtYkQ8VqF14XHxmCe1IO/ct2QspkeUl3iNYi6Q==", "song"=>{"song_title"=>"dv", "song_url"=>#<ActionDispatch::Http::UploadedFile:0x007f9770624be8 @tempfile=#<Tempfile:/var/folders/sk/6xrfbn6d68569z1sxc2z_2240000gr/T/RackMultipart20170717-1719-118w70x.docx>, @original_filename="DripMails.docx", @content_type="application/vnd.openxmlformats-officedocument.wordprocessingml.document", @headers="Content-Disposition: form-data; name=\"song[song_url]\"; filename=\"DripMails.docx\"\r\nContent-Type: application/vnd.openxmlformats-officedocument.wordprocessingml.document\r\n">}, "commit"=>"Upload"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "songs" ("song_title", "song_url", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["song_title", "dv"], ["song_url", "DripMails.docx"], ["created_at", "2017-07-17 10:39:25.735581"], ["updated_at", "2017-07-17 10:39:25.735581"]]
+  [1m[35m (3.8ms)[0m  commit transaction
+Redirected to http://localhost:3000/songs
+Completed 302 Found in 33ms (ActiveRecord: 4.4ms)
+
+
+Started GET "/songs" for ::1 at 2017-07-17 16:09:25 +0530
+Processing by SongsController#index as HTML
+  [1m[36mSong Load (0.3ms)[0m  [1mSELECT "songs".* FROM "songs"[0m
+  Rendered songs/index.html.erb within layouts/application (23.2ms)
+Completed 200 OK in 114ms (Views: 113.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/songs/new" for ::1 at 2017-07-17 16:11:29 +0530
+Processing by SongsController#new as HTML
+  Rendered songs/new.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 373ms (Views: 348.8ms | ActiveRecord: 0.7ms)
+
+
+Started POST "/songs" for ::1 at 2017-07-17 16:11:40 +0530
+Processing by SongsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kAvmrDiLZJEqKkzqxTpaCXei0Wl/hCAnm7PFDcPf1XnMGaEq86E9RkhmwkZguGh8Ts3EnaAHGoBt/QhQb09MSg==", "song"=>{"song_title"=>"ds", "song_url"=>#<ActionDispatch::Http::UploadedFile:0x007f9771f132a8 @tempfile=#<Tempfile:/var/folders/sk/6xrfbn6d68569z1sxc2z_2240000gr/T/RackMultipart20170717-1719-ensrk0.p12>, @original_filename="Certificates_dist.p12", @content_type="application/x-pkcs12", @headers="Content-Disposition: form-data; name=\"song[song_url]\"; filename=\"Certificates_dist.p12\"\r\nContent-Type: application/x-pkcs12\r\n">}, "commit"=>"Upload"}
+  [1m[35m (0.3ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  Rendered songs/new.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 330ms (Views: 301.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/songs" for ::1 at 2017-07-17 16:12:23 +0530
+Processing by SongsController#index as HTML
+  [1m[35mSong Load (0.3ms)[0m  SELECT "songs".* FROM "songs"
+  Rendered songs/index.html.erb within layouts/application (25.9ms)
+Completed 200 OK in 587ms (Views: 586.0ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/songs?class=btn+btn-danger&confirm=Are+you+sure+that+you+wish+to+delete+news1%3F&method=delete" for ::1 at 2017-07-17 16:12:25 +0530
+Processing by SongsController#create as HTML
+  Parameters: {"authenticity_token"=>"aD3Wxh/v4T8fl+w5hLnKQzn3KbXxi5MRLymIVx2B9ig0L5FA1MW46H3bYpUhO/g2AJg8QS4IqbbZZ0UKsRFvGw==", "class"=>"btn btn-danger", "confirm"=>"Are you sure that you wish to delete news1?", "method"=>"delete"}
+Completed 400 Bad Request in 1ms (ActiveRecord: 0.0ms)
+
+ActionController::ParameterMissing (param is missing or the value is empty: song):
+  app/controllers/songs_controller.rb:27:in `song_params'
+  app/controllers/songs_controller.rb:11:in `create'
+
+
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.6ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.2ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (140.4ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (94.8ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (506.0ms)
+
+
+Started POST "/songs?class=btn+btn-danger&confirm=Are+you+sure+that+you+wish+to+delete+news1%3F&method=delete" for ::1 at 2017-07-17 16:15:22 +0530
+Processing by SongsController#create as HTML
+  Parameters: {"authenticity_token"=>"aD3Wxh/v4T8fl+w5hLnKQzn3KbXxi5MRLymIVx2B9ig0L5FA1MW46H3bYpUhO/g2AJg8QS4IqbbZZ0UKsRFvGw==", "class"=>"btn btn-danger", "confirm"=>"Are you sure that you wish to delete news1?", "method"=>"delete"}
+Completed 400 Bad Request in 31ms (ActiveRecord: 0.0ms)
+
+ActionController::ParameterMissing (param is missing or the value is empty: song):
+  app/controllers/songs_controller.rb:27:in `song_params'
+  app/controllers/songs_controller.rb:11:in `create'
+
+
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.3ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.5ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (123.7ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (81.5ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (182.6ms)
+
+
+Started POST "/songs?class=btn+btn-danger&confirm=Are+you+sure+that+you+wish+to+delete+news1%3F&method=delete" for ::1 at 2017-07-17 16:16:13 +0530
+Processing by SongsController#create as HTML
+  Parameters: {"authenticity_token"=>"aD3Wxh/v4T8fl+w5hLnKQzn3KbXxi5MRLymIVx2B9ig0L5FA1MW46H3bYpUhO/g2AJg8QS4IqbbZZ0UKsRFvGw==", "class"=>"btn btn-danger", "confirm"=>"Are you sure that you wish to delete news1?", "method"=>"delete"}
+Completed 400 Bad Request in 1ms (ActiveRecord: 0.0ms)
+
+ActionController::ParameterMissing (param is missing or the value is empty: song):
+  app/controllers/songs_controller.rb:27:in `song_params'
+  app/controllers/songs_controller.rb:11:in `create'
+
+
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.8ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.5ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (118.5ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (80.0ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (176.2ms)
+
+
+Started GET "/info/routes" for ::1 at 2017-07-17 16:18:29 +0530
+
+ActionController::RoutingError (No route matches [GET] "/info/routes"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.8) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.8) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.8) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.8) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.8) lib/rack/lock.rb:17:in `call'
+  rack (1.6.8) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.8) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/standarduser/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/standarduser/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/standarduser/.rvm/rubies/ruby-2.2.4/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.6ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (48.2ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (220.6ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (78.6ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (178.0ms)
+
+
+Started POST "/songs?class=btn+btn-danger&confirm=Are+you+sure+that+you+wish+to+delete+news1%3F&method=delete" for ::1 at 2017-07-17 16:18:35 +0530
+Processing by SongsController#create as HTML
+  Parameters: {"authenticity_token"=>"aD3Wxh/v4T8fl+w5hLnKQzn3KbXxi5MRLymIVx2B9ig0L5FA1MW46H3bYpUhO/g2AJg8QS4IqbbZZ0UKsRFvGw==", "class"=>"btn btn-danger", "confirm"=>"Are you sure that you wish to delete news1?", "method"=>"delete"}
+Completed 400 Bad Request in 1ms (ActiveRecord: 0.0ms)
+
+ActionController::ParameterMissing (param is missing or the value is empty: song):
+  app/controllers/songs_controller.rb:27:in `song_params'
+  app/controllers/songs_controller.rb:11:in `create'
+
+
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.9ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.8ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (118.5ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (80.7ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (185.8ms)
+
+
+Started POST "/songs?class=btn+btn-danger&confirm=Are+you+sure+that+you+wish+to+delete+another%3F&method=delete" for ::1 at 2017-07-17 16:18:43 +0530
+Processing by SongsController#create as HTML
+  Parameters: {"authenticity_token"=>"eDQTOlSMP/Kn7eWA7mRsyLhlLJjxLF15XUQelWGy60ckJlS8n6ZmJcWhayxL5l69gQo5bC6vZ96rCtPIzSJydA==", "class"=>"btn btn-danger", "confirm"=>"Are you sure that you wish to delete another?", "method"=>"delete"}
+Completed 400 Bad Request in 1ms (ActiveRecord: 0.0ms)
+
+ActionController::ParameterMissing (param is missing or the value is empty: song):
+  app/controllers/songs_controller.rb:27:in `song_params'
+  app/controllers/songs_controller.rb:11:in `create'
+
+
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.4ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.4ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (113.8ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (80.2ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (182.1ms)
+
+
+Started GET "/songs" for ::1 at 2017-07-17 16:19:07 +0530
+Processing by SongsController#index as HTML
+  [1m[36mSong Load (0.5ms)[0m  [1mSELECT "songs".* FROM "songs"[0m
+  Rendered songs/index.html.erb within layouts/application (12.6ms)
+Completed 500 Internal Server Error in 34ms (ActiveRecord: 0.9ms)
+
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"songs", :id=>nil} missing required keys: [:id]):
+    19: 						<tr>
+    20: 							<td><%= song.song_title %></td>
+    21: 							<td><%= link_to "Download" %></td>
+    22: 							<td><%= button_to "Delete song", song_path(@song), method: :delete, class: "btn btn-danger" ,confirm: "Are you sure that you wish to delete #{song.song_title}?" %></td>
+    23: 						</tr>
+    24: 					<% end %>
+    25: 				</tbody>
+  app/views/songs/index.html.erb:22:in `block in _app_views_songs_index_html_erb__928668303614429688_70144199446040'
+  app/views/songs/index.html.erb:18:in `_app_views_songs_index_html_erb__928668303614429688_70144199446040'
+
+
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (10.7ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.3ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (130.9ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (80.4ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (182.7ms)
+
+
+Started GET "/songs" for ::1 at 2017-07-17 16:19:28 +0530
+Processing by SongsController#index as HTML
+  [1m[35mSong Load (0.2ms)[0m  SELECT "songs".* FROM "songs"
+  Rendered songs/index.html.erb within layouts/application (4.7ms)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.2ms)
+
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"songs", :id=>nil} missing required keys: [:id]):
+    19: 						<tr>
+    20: 							<td><%= song.song_title %></td>
+    21: 							<td><%= link_to "Download" %></td>
+    22: 							<td><%= button_to "Delete song", song_path(@song), method: :delete, class: "btn btn-danger" ,confirm: "Are you sure that you wish to delete #{song.song_title}?" %></td>
+    23: 						</tr>
+    24: 					<% end %>
+    25: 				</tbody>
+  app/views/songs/index.html.erb:22:in `block in _app_views_songs_index_html_erb__928668303614429688_70144199446040'
+  app/views/songs/index.html.erb:18:in `_app_views_songs_index_html_erb__928668303614429688_70144199446040'
+
+
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (10.9ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.4ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (119.4ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (82.7ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (183.9ms)
+
+
+Started GET "/songs" for ::1 at 2017-07-17 16:19:32 +0530
+Processing by SongsController#index as HTML
+  [1m[36mSong Load (0.2ms)[0m  [1mSELECT "songs".* FROM "songs"[0m
+  Rendered songs/index.html.erb within layouts/application (5.1ms)
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.2ms)
+
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"songs", :id=>nil} missing required keys: [:id]):
+    19: 						<tr>
+    20: 							<td><%= song.song_title %></td>
+    21: 							<td><%= link_to "Download" %></td>
+    22: 							<td><%= button_to "Delete song", song_path(@song), method: :delete, class: "btn btn-danger" ,confirm: "Are you sure that you wish to delete #{song.song_title}?" %></td>
+    23: 						</tr>
+    24: 					<% end %>
+    25: 				</tbody>
+  app/views/songs/index.html.erb:22:in `block in _app_views_songs_index_html_erb__928668303614429688_70144199446040'
+  app/views/songs/index.html.erb:18:in `_app_views_songs_index_html_erb__928668303614429688_70144199446040'
+
+
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (11.2ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.6ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (120.0ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (82.1ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (179.2ms)
+
+
+Started GET "/" for ::1 at 2017-07-17 16:19:37 +0530
+Processing by IndexController#show as HTML
+  Rendered index/show.html.erb within layouts/application (39.0ms)
+Completed 200 OK in 252ms (Views: 251.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/songs" for ::1 at 2017-07-17 16:19:39 +0530
+Processing by SongsController#index as HTML
+  [1m[35mSong Load (0.2ms)[0m  SELECT "songs".* FROM "songs"
+  Rendered songs/index.html.erb within layouts/application (5.3ms)
+Completed 500 Internal Server Error in 36ms (ActiveRecord: 0.2ms)
+
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"songs", :id=>nil} missing required keys: [:id]):
+    19: 						<tr>
+    20: 							<td><%= song.song_title %></td>
+    21: 							<td><%= link_to "Download" %></td>
+    22: 							<td><%= button_to "Delete song", song_path(@song), method: :delete, class: "btn btn-danger" ,confirm: "Are you sure that you wish to delete #{song.song_title}?" %></td>
+    23: 						</tr>
+    24: 					<% end %>
+    25: 				</tbody>
+  app/views/songs/index.html.erb:22:in `block in _app_views_songs_index_html_erb__928668303614429688_70144199446040'
+  app/views/songs/index.html.erb:18:in `_app_views_songs_index_html_erb__928668303614429688_70144199446040'
+
+
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (10.3ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.2ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (122.2ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (94.3ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (208.5ms)
+
+
+Started GET "/songs" for ::1 at 2017-07-17 16:19:58 +0530
+Processing by SongsController#index as HTML
+  [1m[36mSong Load (0.3ms)[0m  [1mSELECT "songs".* FROM "songs"[0m
+  Rendered songs/index.html.erb within layouts/application (7.7ms)
+Completed 200 OK in 368ms (Views: 366.8ms | ActiveRecord: 0.3ms)
+
+
+Started DELETE "/songs/7" for ::1 at 2017-07-17 16:20:05 +0530
+Processing by SongsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"xJYhij0HiOaC1tb+1uSTWsWcWxqhyTz1fSXWZDs2ESWYhGYM9i3RMeCaWFJzZqEv/PNO7n5KBlKLaxs5l6aIFg==", "id"=>"7"}
+  [1m[35mSong Load (0.2ms)[0m  SELECT  "songs".* FROM "songs" WHERE "songs"."id" = ? LIMIT 1  [["id", 7]]
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  DELETE FROM "songs" WHERE "songs"."id" = ?  [["id", 7]]
+  [1m[36m (1.0ms)[0m  [1mcommit transaction[0m
+Completed 500 Internal Server Error in 69ms (ActiveRecord: 1.6ms)
+
+NoMethodError (undefined method `rediect_to' for #<SongsController:0x007f9771e63df8>):
+  app/controllers/songs_controller.rb:23:in `destroy'
+
+
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (10.2ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.6ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (188.7ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (78.6ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (194.5ms)
+
+
+Started DELETE "/songs/7" for ::1 at 2017-07-17 16:20:33 +0530
+Processing by SongsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"xJYhij0HiOaC1tb+1uSTWsWcWxqhyTz1fSXWZDs2ESWYhGYM9i3RMeCaWFJzZqEv/PNO7n5KBlKLaxs5l6aIFg==", "id"=>"7"}
+  [1m[35mSong Load (0.1ms)[0m  SELECT  "songs".* FROM "songs" WHERE "songs"."id" = ? LIMIT 1  [["id", 7]]
+Completed 404 Not Found in 43ms (ActiveRecord: 0.8ms)
+
+ActiveRecord::RecordNotFound (Couldn't find Song with 'id'=7):
+  app/controllers/songs_controller.rb:21:in `destroy'
+
+
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.5ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.6ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (125.6ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (77.5ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (176.9ms)
+
+
+Started GET "/songs" for ::1 at 2017-07-17 16:20:44 +0530
+Processing by SongsController#index as HTML
+  [1m[36mSong Load (0.3ms)[0m  [1mSELECT "songs".* FROM "songs"[0m
+  Rendered songs/index.html.erb within layouts/application (9.3ms)
+Completed 200 OK in 261ms (Views: 260.4ms | ActiveRecord: 0.3ms)
+
+
+Started DELETE "/songs/9" for ::1 at 2017-07-17 16:20:49 +0530
+Processing by SongsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"063TuBk1uxlpF3YepRPt6ZxQMdgw7GvyT/EUwzbHI1KPv5Q+0h/izgtb+LIAkd+cpT8kLO9vUVW5v9memle6YQ==", "id"=>"9"}
+  [1m[35mSong Load (0.1ms)[0m  SELECT  "songs".* FROM "songs" WHERE "songs"."id" = ? LIMIT 1  [["id", 9]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  DELETE FROM "songs" WHERE "songs"."id" = ?  [["id", 9]]
+  [1m[36m (1.6ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/songs
+Completed 302 Found in 23ms (ActiveRecord: 2.1ms)
+
+
+Started GET "/songs" for ::1 at 2017-07-17 16:20:49 +0530
+Processing by SongsController#index as HTML
+  [1m[35mSong Load (0.3ms)[0m  SELECT "songs".* FROM "songs"
+  Rendered songs/index.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 78ms (Views: 76.5ms | ActiveRecord: 0.3ms)
+
+
+Started DELETE "/songs/8" for ::1 at 2017-07-17 16:20:52 +0530
+Processing by SongsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"iQ2ytueZgd49op+iRuKHGItyp907crdCnbBBHma1pWfVH/UwLLPYCV/uEQ7jYLVtsh2yKeTxjeVr/oxDyiU8VA==", "id"=>"8"}
+  [1m[36mSong Load (0.1ms)[0m  [1mSELECT  "songs".* FROM "songs" WHERE "songs"."id" = ? LIMIT 1[0m  [["id", 8]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "songs" WHERE "songs"."id" = ?[0m  [["id", 8]]
+  [1m[35m (1.6ms)[0m  commit transaction
+Redirected to http://localhost:3000/songs
+Completed 302 Found in 38ms (ActiveRecord: 2.0ms)
+
+
+Started GET "/songs" for ::1 at 2017-07-17 16:20:53 +0530
+Processing by SongsController#index as HTML
+  [1m[36mSong Load (0.4ms)[0m  [1mSELECT "songs".* FROM "songs"[0m
+  Rendered songs/index.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 95ms (Views: 93.8ms | ActiveRecord: 0.4ms)
+
+
+Started DELETE "/songs/6" for ::1 at 2017-07-17 16:21:04 +0530
+Processing by SongsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"n2QBdFQT8ojAyvxxvPG/FqRb6M8YWuknDYevEuh9qlrDdkbynzmrX6KGct0Zc41jnTT9O8fZ04D7yWJPRO0zaQ==", "id"=>"6"}
+  [1m[35mSong Load (0.1ms)[0m  SELECT  "songs".* FROM "songs" WHERE "songs"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  DELETE FROM "songs" WHERE "songs"."id" = ?  [["id", 6]]
+  [1m[36m (1.8ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/songs
+Completed 302 Found in 32ms (ActiveRecord: 2.2ms)
+
+
+Started GET "/songs" for ::1 at 2017-07-17 16:21:04 +0530
+Processing by SongsController#index as HTML
+  [1m[35mSong Load (0.2ms)[0m  SELECT "songs".* FROM "songs"
+  Rendered songs/index.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 108ms (Views: 107.5ms | ActiveRecord: 0.2ms)
+
+
+Started DELETE "/songs/1" for ::1 at 2017-07-17 16:22:18 +0530
+Processing by SongsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"zlBmpIxvPMJNb6CIcz4k6uc3MNWb2K6KpvsS2j+D256SQiEiR0VlFS8jLiTWvBaf3lglIURblC1Qtd+HkxNCrQ==", "id"=>"1"}
+  [1m[36mSong Load (0.1ms)[0m  [1mSELECT  "songs".* FROM "songs" WHERE "songs"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (9.6ms)[0m  [1mDELETE FROM "songs" WHERE "songs"."id" = ?[0m  [["id", 1]]
+  [1m[35m (1.5ms)[0m  commit transaction
+Redirected to http://localhost:3000/songs
+Completed 302 Found in 344ms (ActiveRecord: 11.3ms)
+
+
+Started GET "/songs" for ::1 at 2017-07-17 16:22:19 +0530
+Processing by SongsController#index as HTML
+  [1m[36mSong Load (0.2ms)[0m  [1mSELECT "songs".* FROM "songs"[0m
+  Rendered songs/index.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 590ms (Views: 588.9ms | ActiveRecord: 0.2ms)
+
+
+Started DELETE "/songs/2" for ::1 at 2017-07-17 16:22:23 +0530
+Processing by SongsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"ASEFi6Q6kgjUFNZlXLnfjQu108y59ZjIFn/WYITI5SZdM0INbxDL37ZYWMn5O+34MtrGOGZ2om/gMRs9KFh8FQ==", "id"=>"2"}
+  [1m[35mSong Load (0.1ms)[0m  SELECT  "songs".* FROM "songs" WHERE "songs"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "songs" WHERE "songs"."id" = ?  [["id", 2]]
+  [1m[36m (17.9ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/songs
+Completed 302 Found in 304ms (ActiveRecord: 18.3ms)
+
+
+Started GET "/songs" for ::1 at 2017-07-17 16:22:24 +0530
+Processing by SongsController#index as HTML
+  [1m[35mSong Load (0.4ms)[0m  SELECT "songs".* FROM "songs"
+  Rendered songs/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 116ms (Views: 114.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/songs/new" for ::1 at 2017-07-17 16:27:15 +0530
+Processing by SongsController#new as HTML
+  Rendered songs/new.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 365ms (Views: 364.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/songs" for ::1 at 2017-07-17 16:27:31 +0530
+Processing by SongsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"SZRiEh+ApHD9zCG+xXqBkj9A4aorbGI4MOfa4hkFhTMVhiWU1Kr9p5+ArxJg+LPnBi/0XvTvWJ/GqRe/tZUcAA==", "song"=>{"song_title"=>"oth", "song_url"=>#<ActionDispatch::Http::UploadedFile:0x007f97705ef218 @tempfile=#<Tempfile:/var/folders/sk/6xrfbn6d68569z1sxc2z_2240000gr/T/RackMultipart20170717-1719-51xgtt.docx>, @original_filename="androidBasic.docx", @content_type="application/vnd.openxmlformats-officedocument.wordprocessingml.document", @headers="Content-Disposition: form-data; name=\"song[song_url]\"; filename=\"androidBasic.docx\"\r\nContent-Type: application/vnd.openxmlformats-officedocument.wordprocessingml.document\r\n">}, "commit"=>"Upload"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  Rendered songs/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 146ms (Views: 70.5ms | ActiveRecord: 0.1ms)
+
+
+Started POST "/songs" for ::1 at 2017-07-17 16:27:35 +0530
+Processing by SongsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"MDg+KrTgF4g3caiY+EzezPVFMhLZpMgpKXIYx38kUkBsKnmsf8pOX1U9JjRdzuy5zCon5gYn8o7fPNWa07TLcw==", "song"=>{"song_title"=>"oth"}, "commit"=>"Upload"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "songs" ("song_title", "created_at", "updated_at") VALUES (?, ?, ?)  [["song_title", "oth"], ["created_at", "2017-07-17 10:57:35.083663"], ["updated_at", "2017-07-17 10:57:35.083663"]]
+  [1m[36m (2.1ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/songs
+Completed 302 Found in 7ms (ActiveRecord: 2.6ms)
+
+
+Started GET "/songs" for ::1 at 2017-07-17 16:27:35 +0530
+Processing by SongsController#index as HTML
+  Rendered songs/index.html.erb within layouts/application (4.9ms)
+Completed 500 Internal Server Error in 24ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `errors' for nil:NilClass):
+    15: 			<%= link_to "Upload New Song" ,new_song_path, class: 'btn btn-primary',id: "song_title" %>
+    16: 			<br>
+    17: 
+    18: 			<% if !@resume.errors.empty? %>
+    19:    				<div class = "alert alert-error">
+    20:       				<ul>
+    21:          				<% @resume.errors.full_messages.each do |msg| %>
+  app/views/songs/index.html.erb:18:in `_app_views_songs_index_html_erb__928668303614429688_70144201177000'
+
+
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (10.2ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.3ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (144.7ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (77.6ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (173.2ms)
+
+
+Started GET "/songs" for ::1 at 2017-07-17 16:27:47 +0530
+Processing by SongsController#index as HTML
+  Rendered songs/index.html.erb within layouts/application (3.6ms)
+Completed 500 Internal Server Error in 31ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `errors' for nil:NilClass):
+    15: 			<%= link_to "Upload New Song" ,new_song_path, class: 'btn btn-primary',id: "song_title" %>
+    16: 			<br>
+    17: 
+    18: 			<% if !@resume.errors.empty? %>
+    19:    				<div class = "alert alert-error">
+    20:       				<ul>
+    21:          				<% @resume.errors.full_messages.each do |msg| %>
+  app/views/songs/index.html.erb:18:in `_app_views_songs_index_html_erb__928668303614429688_70144201177000'
+
+
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (10.8ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.5ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (130.5ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (89.6ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (195.0ms)
+
+
+Started GET "/songs" for ::1 at 2017-07-17 16:28:17 +0530
+Processing by SongsController#index as HTML
+  Rendered songs/index.html.erb within layouts/application (4.2ms)
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `errors' for nil:NilClass):
+    15: 			<%= link_to "Upload New Song" ,new_song_path, class: 'btn btn-primary',id: "song_title" %>
+    16: 			<br>
+    17: 
+    18: 			<% if !@song.errors.empty? %>
+    19:    				<div class = "alert alert-error">
+    20:       				<ul>
+    21:          				<% @song.errors.full_messages.each do |msg| %>
+  app/views/songs/index.html.erb:18:in `_app_views_songs_index_html_erb__928668303614429688_70144217180260'
+
+
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (10.0ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.6ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (140.0ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (79.0ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (179.9ms)
+
+
+Started GET "/songs" for ::1 at 2017-07-17 16:28:22 +0530
+Processing by SongsController#index as HTML
+  Rendered songs/index.html.erb within layouts/application (3.2ms)
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `errors' for nil:NilClass):
+    15: 			<%= link_to "Upload New Song" ,new_song_path, class: 'btn btn-primary',id: "song_title" %>
+    16: 			<br>
+    17: 
+    18: 			<% if !@song.errors.empty? %>
+    19:    				<div class = "alert alert-error">
+    20:       				<ul>
+    21:          				<% @song.errors.full_messages.each do |msg| %>
+  app/views/songs/index.html.erb:18:in `_app_views_songs_index_html_erb__928668303614429688_70144217180260'
+
+
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (10.4ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.4ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4@global/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (119.2ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.8ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (79.8ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/standarduser/.rvm/gems/ruby-2.2.4/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (179.4ms)
+
+
+Started GET "/songs" for ::1 at 2017-07-17 16:28:37 +0530
+Processing by SongsController#index as HTML
+  [1m[35mSong Load (0.2ms)[0m  SELECT "songs".* FROM "songs"
+  Rendered songs/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 199ms (Views: 198.8ms | ActiveRecord: 0.2ms)
+
+
+Started DELETE "/songs/10" for ::1 at 2017-07-17 16:28:41 +0530
+Processing by SongsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"wbvVVmDX/n7X00m3ZvhsMKo5+El+ApjLOANXdHf7CdKdqZLQq/2nqbWfxxvDel5Fk1btvaGBomzOTZop22uQ4Q==", "id"=>"10"}
+  [1m[36mSong Load (0.1ms)[0m  [1mSELECT  "songs".* FROM "songs" WHERE "songs"."id" = ? LIMIT 1[0m  [["id", 10]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (17.0ms)[0m  [1mDELETE FROM "songs" WHERE "songs"."id" = ?[0m  [["id", 10]]
+  [1m[35m (1.4ms)[0m  commit transaction
+Redirected to http://localhost:3000/songs
+Completed 302 Found in 21ms (ActiveRecord: 18.5ms)
+
+
+Started GET "/songs" for ::1 at 2017-07-17 16:28:42 +0530
+Processing by SongsController#index as HTML
+  [1m[36mSong Load (0.2ms)[0m  [1mSELECT "songs".* FROM "songs"[0m
+  Rendered songs/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 82ms (Views: 81.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/songs" for ::1 at 2017-07-17 16:28:46 +0530
+Processing by SongsController#index as HTML
+  [1m[35mSong Load (0.2ms)[0m  SELECT "songs".* FROM "songs"
+  Rendered songs/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 68ms (Views: 67.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/songs" for ::1 at 2017-07-17 16:28:52 +0530
+Processing by SongsController#index as HTML
+  [1m[36mSong Load (0.2ms)[0m  [1mSELECT "songs".* FROM "songs"[0m
+  Rendered songs/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 72ms (Views: 70.5ms | ActiveRecord: 0.2ms)

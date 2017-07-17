@@ -1,10 +1,13 @@
 class CreateSongs < ActiveRecord::Migration
   def change
     create_table :songs do |t|
+    	
+    	t.string :song_title  
+    	t.string :song_url 
 
       t.timestamps null: false
     end
-  end
+  end	
 end
 #Title – The track title
 #Artist – The artist that recorded the track
