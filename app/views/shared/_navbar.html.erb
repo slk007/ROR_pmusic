@@ -1,0 +1,14 @@
+<nav class="navbar navbar-inverse">
+	<div class="container-fluid">
+     <div class="navbar-header">
+       <a class="navbar-brand" href="">pmusic</a>
+     </div>
+     <ul class="nav navbar-nav navbar-right">
+      <li class="<%= active_tab('home') %>"><%= link_to "Home",root_path, class: 'home_path' %></li>
+      <li class="<%= active_tab('list') %>"><%= link_to "List", songs_path, class: 'list_path' %></li>
+      <li class="<%= active_tab('play') %>"><%= link_to "Play", play_songs_path, class: 'play_path' %></li> 
+      <li class="<%= active_tab('add') %>"><%= link_to "Add", new_song_path, class: 'new_path' %></li> 
+      <li class="<%= active_tab('search') %>"><%= link_to "Search", class: 'search_path' %></li>
+     </ul>
+  </div>
+</nav>

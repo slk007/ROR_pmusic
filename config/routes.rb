@@ -4,6 +4,14 @@ Rails.application.routes.draw do
 
   root 'index#show'
 
-  resources :songs
+  resources :songs do 
+  	member do
+  		get :download
+
+  	end
+  	collection do
+  		get :play
+  	end
+  end
 
 end

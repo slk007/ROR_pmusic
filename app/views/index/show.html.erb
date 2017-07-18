@@ -1,65 +1,20 @@
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-		<title>Welcome Page</title>
-	</head>
-	<body>
-		<nav class="navbar navbar-inverse">
-			<div class="container-fluid">
-    			<div class="navbar-header">
-     				<a class="navbar-brand" href="#">pMusic</a>
-  				</div>
-   				<ul class="nav navbar-nav navbar-right">
-    				<li class="active"><a href="#">Home</a></li>
-    				<li><a href="#">Play</a></li>
-    				<li><%= link_to "List", songs_path, class: 'list_path' %></li>
-    				<li><a href="#">Search</a></li>
-    			</ul>
-  			</div>
-		</nav>
-		<section>
-			<div class="row">
-				<div class="col-md-4">
-					<%= image_tag("songs_list_icon.jpg", class: "icons") do %><% end %>
-				</div>
-  				<div class="col-md-8">
-  					 <p><h1>You can see the list of your uploaded songs.</h1>
-  					 click</p>
-  				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-8">
-					<p><h1>You can play your songs here.</h1>
-  					 click</p>
-				</div>
-  				<div class="col-md-4">
-  					 <%= image_tag("songs_play_icon.jpg", class: "icons play") do %><% end %>
-  				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-4">
-					<%= image_tag("songs_tag_icon.png", class: "icons") do %><% end %>
-				</div>
-  				<div class="col-md-8">
-  					 <p><h1>You can add tags to the songs here.</h1>
-  					 click</p>
-  				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-8">
-					<p><h1>You can search your songs via tags here</h1>
-  					 click</p>
-				</div>
-  				<div class="col-md-4">
-  					 <%= image_tag("songs_searching_icon.png", class: "icons") do %><% end %>
-  				</div>
-			</div>
-		</section>
-		<aside></aside>
-		<footer>
-			<div class="foo">
-				<p>Copyright &copy; 2017</p>
-			</div>
-		</footer>
-	</body>
-</html>
+<div class="container">
+	<div class="row">
+		<div class="col-md-6">
+			<%= image_tag("songs_play_icon.jpg", class: "icons play") do %><% end %>
+			<h1>You can play already present songs here.</h1>
+		</div>
+		<div class="col-md-6">
+			<%= image_tag("songs_tag_icon.png", class: "icons") do %><% end %>
+			<h1>You can add tags to the songs here.</h1>
+		</div>
+		<div class="col-md-6">
+			<%= image_tag("songs_list_icon.jpg", class: "icons") do %><% end %>
+			<h1>You can see the list of your uploaded songs.</h1>
+		</div>
+		<div class="col-md-6">
+			<%= image_tag("songs_searching_icon.png", class: "icons") do %><% end %>
+			<h1>You can search your songs via tags here</h1>
+		</div>
+	</div>
+</div>
