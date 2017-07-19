@@ -7,7 +7,7 @@ module ApplicationHelper
 			return "active" if controller_name == "songs" && action_name == "index"
 		elsif tab == 'play'
 			return "active" if controller_name == "songs" && action_name == "play"
-		elsif tab == 'add'
+		elsif tab == 'upload'
 			return "active" if controller_name == "songs" && action_name == "new"
 		else
 			return ""

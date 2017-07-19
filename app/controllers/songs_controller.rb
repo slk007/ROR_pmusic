@@ -1,7 +1,14 @@
 class SongsController < ApplicationController
 
+	skip_before_filter :authenticate_user!, :only => :play
+
 	def index
-		@songs=Song.all
+		if params[:q].present?
+			@songs=Song.where("song_title like ?", "%#{params[:q]}%").order("LOWER(song_title)")
+		else
+		@songs=Song.all.order("LOWER(song_title)")	
+		end
+		
 	end
 
 	def new
@@ -28,11 +35,10 @@ class SongsController < ApplicationController
 	end
 
 	def play
-		@songs=Song.all
+		@songs=Song.all.order("LOWER(song_title)")
 	end
 
-	def destroy
-		
+	def destroy		
 		@song=Song.find(params[:id])
 		@song.destroy
 		redirect_to songs_path, notice: "The song has been deleted"

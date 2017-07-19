@@ -1,14 +1,30 @@
 <nav class="navbar navbar-inverse">
 	<div class="container-fluid">
      <div class="navbar-header">
-       <a class="navbar-brand" href="">pmusic</a>
+       <%= link_to "pmusic",root_path, class: "navbar-brand" %>">
      </div>
      <ul class="nav navbar-nav navbar-right">
+
       <li class="<%= active_tab('home') %>"><%= link_to "Home",root_path, class: 'home_path' %></li>
-      <li class="<%= active_tab('list') %>"><%= link_to "List", songs_path, class: 'list_path' %></li>
-      <li class="<%= active_tab('play') %>"><%= link_to "Play", play_songs_path, class: 'play_path' %></li> 
-      <li class="<%= active_tab('add') %>"><%= link_to "Add", new_song_path, class: 'new_path' %></li> 
-      <li class="<%= active_tab('search') %>"><%= link_to "Search", class: 'search_path' %></li>
+      <li class="<%= active_tab('play') %>"><%= link_to "Play", play_songs_path, class: 'play_path' %></li>
+      <li class="<%= active_tab('list') %>"><%= link_to "List", songs_path, class: 'list_path' %></li> 
+      <li class="<%= active_tab('upload') %>"><%= link_to "Upload", new_song_path, class: 'new_path' %></li>
+
+      <form class="navbar-form navbar-left" action="<%= songs_path %>">
+        <div class="form-group">
+          <input type="text" name="q" value="<%= params[:q] %>" class="form-control" placeholder="Search a song">
+        </div>
+        <button type="submit" class="btn btn-primary">Search</button>
+      </form>
+
+      <% if current_user.present? %>
+          <li><span class="text-primary" style="line-height: 50px; color: white;"><%= current_user.email %></span></li>
+          <li><%= link_to "Logout", destroy_user_session_path, method: :delete ,class: "btn btn-primary" %></li>
+        <%else%>
+          <li><%= link_to "Login", new_user_session_path,class: 'login_path' %></li>
+          <li><%= link_to "Sign Up", new_user_registration_path, class: "btn btn-primary" ,id: "signup" %></li>
+      <% end %>
+
      </ul>
   </div>
 </nav>
