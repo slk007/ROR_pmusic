@@ -1,7 +1,8 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
-/*
- * This is a manifest file that'll be compiled into application.css, which will include all the files
+
+
+/*This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
  *
  * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
@@ -10,35 +11,33 @@
  * You're free to add application-wide styles to this file and they'll appear at the bottom of the
  * compiled file so the styles you add here take precedence over styles defined in any styles
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
- * file per style scope. 
+ * file per style scope.
  */
-
-*{
-	margin: 0;
-	padding: 0;
+html{
+	height: 100%;
 }
-.row .col-md-6{
-	border: none;
-	background: #f4df42;
+body{
+	min-height: 100%;
+	position: relative;
 }
-.row .col-md-6:hover{
-	border: none;
-	background: #f29007;
-	color: white;
+.jumbotron{
+	padding-left: 100px;
 }
-.icons{
-	width: 200px;
-	height: 200px;
+.thumbnail{
+	width: 300px;
+	heigth: 200px;
 }
-.icons.play{
-	width: 400px;
-}
-.foo{
-	width: 100%;
-	height: 50px;
+footer{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	height: 70px;
+	width: 100%;	
 	background: black;
 	color: white;
 	text-align: center;
 	font-family: sans-serif;
-	font-size: 30px;
+	flex-shrink: 0;
+	
 }

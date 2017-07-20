@@ -2,6 +2,17 @@
 	<h1>Upload Song <span class="glyphicon glyphicon-cloud-upload"></span></h1>
 </header>
 <div class="container">
+
+	<% if !@song.errors.empty? %>
+	   <div class = "alert alert-error">	      
+	      <ul>
+	         <% @song.errors.full_messages.each do |msg| %>
+	            <li><%= msg %></li>
+	         <% end %>
+	      </ul>	      
+	   </div>
+	<% end %>
+
 	<div class="well">
 		<%= form_for(@song, html: { multipart: true }) do |f| %>
 		<p>

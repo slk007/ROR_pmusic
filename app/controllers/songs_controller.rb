@@ -3,12 +3,16 @@ class SongsController < ApplicationController
 	skip_before_filter :authenticate_user!, :only => :play
 
 	def index
+		@u=current_user
+		@songs=@u.songs.order("LOWER(song_title)")
+	end
+
+	def play
 		if params[:q].present?
 			@songs=Song.where("song_title like ?", "%#{params[:q]}%").order("LOWER(song_title)")
 		else
-		@songs=Song.all.order("LOWER(song_title)")	
+			@songs=Song.all.order("LOWER(song_title)")
 		end
-		
 	end
 
 	def new
@@ -16,9 +20,8 @@ class SongsController < ApplicationController
 	end
 
 	def create
-		@song=Song.new(song_params)
-		file_name = params[:song][:song_url].original_filename
-		@song.song_title = file_name
+		@song = current_user.songs.new(song_params)
+		@song.song_title = params[:song][:song_url].original_filename if params[:song][:song_url].present?
 		if @song.save
 			redirect_to songs_path,notice: "The song #{@song.song_title} has been uploaded"
 		else
@@ -32,10 +35,6 @@ class SongsController < ApplicationController
           :type => @song.song_url.content_type,
           :disposition => 'attachment',
           :url_based_filename => true)
-	end
-
-	def play
-		@songs=Song.all.order("LOWER(song_title)")
 	end
 
 	def destroy		
