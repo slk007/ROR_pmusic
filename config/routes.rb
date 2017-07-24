@@ -2,7 +2,7 @@ Rails.application.routes.draw do
 
   devise_for :users
 
-  root 'index#show'
+  root 'welcome#home'
 
   resources :songs do 
   	member do
@@ -13,5 +13,7 @@ Rails.application.routes.draw do
   		get :play
   	end
   end
+
+  resources :moods
 
 end

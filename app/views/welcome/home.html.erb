@@ -1,0 +1,43 @@
+<div class="jumbotron">
+	<h1>pmusic <span class="glyphicon glyphicon-music"></span></h1>
+</div>
+<div class="container">
+	<div class="row">
+		<div class="col-md-4">
+			<%= link_to play_songs_path do %>
+				<%= image_tag("songs_listen_icon.jpg", class: "thumbnail")%>
+			<% end %>			
+			<div class="caption">
+				<h3>Play</h3>
+				<p>We can play our songs here</p>
+			</div>  
+		</div>
+		<div class="col-md-4">
+			<%= link_to moods_path do %>	
+				<%= image_tag("songs_mood_icon.jpg", class: "thumbnail") %>
+			<% end %>
+			<div class="caption">
+				<h3>Mood</h3>
+				<p>Play as of your Mood</p>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<%= link_to songs_path do %>	
+				<%= image_tag("songs_search_icon.jpg", class: "thumbnail") %>
+			<% end %>
+			<div class="caption">
+				<h3>Search</h3>
+				<p>We can Search our songs here</p>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<%= link_to new_song_path do %>
+				<%= image_tag("songs_upload_icon.png", class: "thumbnail") %>
+			<% end %>
+			<div class="caption">
+				<h3>Upload</h3>
+				<p>We can Upload our songs here</p>
+			</div>
+		</div>
+	</div>
+</div>

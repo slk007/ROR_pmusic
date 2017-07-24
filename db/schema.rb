@@ -11,7 +11,13 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170720093150) do
+ActiveRecord::Schema.define(version: 20170724065306) do
+
+  create_table "moods", force: :cascade do |t|
+    t.string   "name"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
 
   create_table "songs", force: :cascade do |t|
     t.string   "song_title"
@@ -20,6 +26,16 @@ ActiveRecord::Schema.define(version: 20170720093150) do
     t.datetime "updated_at", null: false
     t.integer  "user_id"
   end
+
+  create_table "taggings", force: :cascade do |t|
+    t.integer  "mood_id"
+    t.integer  "song_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  add_index "taggings", ["mood_id"], name: "index_taggings_on_mood_id"
+  add_index "taggings", ["song_id"], name: "index_taggings_on_song_id"
 
   create_table "users", force: :cascade do |t|
     t.string   "email",                  default: "", null: false

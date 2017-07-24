@@ -18,6 +18,7 @@
 				<th>Song Name</th>
 				<th>Download Link</th>
 				<th>Delete</th>
+				<th>Moods</th>
 			</thead>		
 			<tbody>
 				<% @songs.each do |song| %>
@@ -25,6 +26,11 @@
 					<td><%= song.song_title %></td>
 					<td><%= link_to " Download ", download_song_path(song), target: :_blank, class: "btn btn-primary glyphicon glyphicon-download-alt" %></td>
 					<td><%= button_to "Delete song", song_path(song), method: :delete, class: "btn btn-danger" ,confirm: "Are you sure that you wish to delete #{song.song_title}?" %></td>
+					<td>						 
+						<% song.moods.each do |mood| %>
+							<%= link_to mood.name, mood_path(mood) %>
+						<% end %>
+					</td>
 				</tr>
 				<% end %>
 			</tbody>

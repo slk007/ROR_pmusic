@@ -1,0 +1,12 @@
+<header class="jumbotron">
+	<h1>Songs with this Mood <span class="glyphicon glyphicon-play"></span></h1>
+</header>
+<div class="container">
+	<div class="well">
+		<ul>
+			<% @mood.songs.each do |song| %>
+				<li><%=  song.song_title %></li>
+			<% end %>
+		</ul>
+	</div>
+</div>

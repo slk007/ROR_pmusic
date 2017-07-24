@@ -1,31 +1,34 @@
 <nav class="navbar navbar-default">
 	<div class="container-fluid">
      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#my_navbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
        <%= link_to "pmusic",root_path, class: "navbar-brand" %>
      </div>
-
-     <ul class="nav navbar-nav navbar-right">
-
-      <li class="<%= active_tab('home') %>"><%= link_to "Home",root_path, class: 'home_path' %></li>
-      <li class="<%= active_tab('play') %>"><%= link_to "Play", play_songs_path, class: 'play_path' %></li>
-      <li class="<%= active_tab('your_list') %>"><%= link_to "Your List", songs_path, class: 'your_list_path' %></li> 
-      <li class="<%= active_tab('upload') %>"><%= link_to "Upload", new_song_path, class: 'new_path' %></li>
-
-      <form class="navbar-form navbar-left" action="<%= play_songs_path %>">
-        <div class="form-group">
-          <input type="text" name="q" value="<%= params[:q] %>" class="form-control" placeholder="Search a song">
-        </div>
-        <button type="submit" class="btn btn-primary">Search</button>
-      </form>
-
-      <% if current_user.present? %>
-          <li><span class="text-primary" style="line-height: 50px; color: green;"><%= current_user.email %></span></li>
-          <li><%= link_to "Logout", destroy_user_session_path, method: :delete ,class: "btn btn-default" %></li>
-        <%else%>
-          <li><%= link_to "Login", new_user_session_path,class: "glyphicon glyphicon-log-in" %></li>
-          <li><%= link_to "SignUp", new_user_registration_path, class: "glyphicon glyphicon-user" %></li>
-      <% end %>
-
+     <div class="collapse navbar-collapse navbar-right" id="my_navbar">
+       <ul class="nav navbar-nav ">
+        <li class="<%= active_tab('home') %>"><%= link_to "Home",root_path, class: 'home_path' %></li>
+        <li class="<%= active_tab('play') %>"><%= link_to "Play", play_songs_path, class: 'play_path' %></li>
+        <li class="<%= active_tab('your_list') %>"><%= link_to "Your List", songs_path, class: 'your_list_path' %></li> 
+        <li class="<%= active_tab('mood') %>"><%= link_to "Mood", moods_path, class: 'mood_path' %></li>
+        <li class="<%= active_tab('upload') %>"><%= link_to "Upload", new_song_path, class: 'new_path' %></li>
+        <form class="navbar-form navbar-left" action="<%= play_songs_path %>">
+          <div class="form-group">
+            <input type="text" name="q" value="<%= params[:q] %>" class="form-control" placeholder="Search a song">
+          </div>
+          <button type="submit" class="btn btn-primary">Search</button>
+        </form>
+        <% if current_user.present? %>
+            <li><span class="text-primary" style="line-height: 50px; color: green;"><%= current_user.email %></span></li>
+            <li class="navbar-form"><%= link_to "Logout", destroy_user_session_path, method: :delete ,class: "btn btn-danger", style: "color:black;   padding: 6px 12px;" %></li>
+          <%else%>
+            <li><%= link_to "Login", new_user_session_path,class: "glyphicon glyphicon-log-in" %></li>
+            <li><%= link_to "SignUp", new_user_registration_path, class: "glyphicon glyphicon-user" %></li>
+        <% end %>
      </ul>
+     </div>     
   </div>
 </nav>

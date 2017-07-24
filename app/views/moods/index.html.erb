@@ -1,0 +1,12 @@
+<header class="jumbotron">
+	<h1>Choose your Mood <span class="glyphicon glyphicon-headphones"></span></h1>
+</header>
+<div class="conatiner">
+	<div class="well">
+		<ul>
+			<% @moods.each do |mood| %>
+				<li><%= link_to mood.name, mood_path(mood),class: "btn btn-primary" %></li><br>
+			<% end %>
+		</ul>  
+	</div>
+</div>
