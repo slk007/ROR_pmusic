@@ -5,7 +5,7 @@
 	<div class="well">
 		<ul>
 			<% @moods.each do |mood| %>
-				<li><%= link_to mood.name, mood_path(mood),class: "btn btn-primary" %></li><br>
+				<li><%= link_to mood.name, mood_path(mood),class: "btn btn-default" %></li><br>
 			<% end %>
 		</ul>  
 	</div>

@@ -16,10 +16,6 @@
 	<div class="well">
 		<%= form_for(@song, html: { multipart: true }) do |f| %>
 		<p>
-			<%= f.label :song_title %><br>
-			<%= f.text_field :song_title%>
-		</p>
-		<p>
 			<%= f.label :song_url %><br>
 			<%= f.file_field :song_url %>
 		</p>

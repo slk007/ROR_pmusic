@@ -20,10 +20,10 @@
 							</audio>
 						</td>
 						<td>						 
-						<% song.moods.each do |mood| %>
-							<%= link_to mood.name, mood_path(mood) %>
-						<% end %>
-					</td>
+							<% song.moods.each do |mood| %>
+								<%= link_to mood.name, mood_path(mood) %>
+							<% end %>
+						</td>
 					</tr>
 				<% end %>
 			</tbody>

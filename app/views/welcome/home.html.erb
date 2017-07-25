@@ -3,7 +3,7 @@
 </div>
 <div class="container">
 	<div class="row">
-		<div class="col-md-4">
+		<div class="col-md-6">
 			<%= link_to play_songs_path do %>
 				<%= image_tag("songs_listen_icon.jpg", class: "thumbnail")%>
 			<% end %>			
@@ -12,7 +12,7 @@
 				<p>We can play our songs here</p>
 			</div>  
 		</div>
-		<div class="col-md-4">
+		<div class="col-md-6">
 			<%= link_to moods_path do %>	
 				<%= image_tag("songs_mood_icon.jpg", class: "thumbnail") %>
 			<% end %>
@@ -21,7 +21,9 @@
 				<p>Play as of your Mood</p>
 			</div>
 		</div>
-		<div class="col-md-4">
+	</div>
+	<div class="row">	
+		<div class="col-md-6">
 			<%= link_to songs_path do %>	
 				<%= image_tag("songs_search_icon.jpg", class: "thumbnail") %>
 			<% end %>
@@ -30,7 +32,7 @@
 				<p>We can Search our songs here</p>
 			</div>
 		</div>
-		<div class="col-md-4">
+		<div class="col-md-6">
 			<%= link_to new_song_path do %>
 				<%= image_tag("songs_upload_icon.png", class: "thumbnail") %>
 			<% end %>

@@ -3,10 +3,24 @@
 </header>
 <div class="container">
 	<div class="well">
-		<ul>
-			<% @mood.songs.each do |song| %>
-				<li><%=  song.song_title %></li>
-			<% end %>
-		</ul>
+		<table class="table table-striped">
+			<thead>
+				<th>Song Name</th>
+				<th>Play</th>
+			</thead>		
+			<tbody>
+				<% @mood.songs.each do |song| %>
+					<tr>
+						<td><%= song.song_title %></td>
+						<td>
+							<audio controls class="audio">
+	  							<source src="<%=song.song_url.url %>" type="audio/mpeg">
+									Your browser does not support the audio element.
+							</audio>
+						</td>
+					</tr>
+				<% end %>
+			</tbody>
+		</table>
 	</div>
 </div>
